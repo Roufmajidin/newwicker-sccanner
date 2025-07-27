@@ -1,0 +1,218 @@
+[{
+    "nr": "2093060N",
+    "photo": "DSC_0133.JPG",
+    "article_code": "2031066",
+    "name": "IVONY LOUNGE CHAIR",
+    "categories": "Kursi",
+    "item_dimension": {
+      "w": 60,
+      "d": 55,
+      "h": 85
+    },
+    "packing_dimension": {
+      "w": 65,
+      "d": 60,
+      "h": 90
+    },
+    "size_of_set": {
+      "set2": "55x50x80",
+      "set3": "50x45x75",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "Rotan Alami",
+    "finishing": "NC Coating",
+    "cbm": 0.30,
+    "remarks": {
+      "rangka": {
+        "harga": 200000,
+        "sub": "Rangka utama dari besi hollow"
+      },
+      "anyam": {
+        "harga": 150000,
+        "sub": "Anyaman rotan lokal"
+      }
+    }
+  },
+  {
+    "nr": "2093060AB",
+    "photo": "DSC_0122.JPG",
+    "article_code": "2031067",
+    "name": "XL Guci SET 2 - Antique Brown",
+    "categories": "Meja",
+    "item_dimension": {
+      "w": 70,
+      "d": 70,
+      "h": 45
+    },
+    "packing_dimension": {
+      "w": 75,
+      "d": 75,
+      "h": 50
+    },
+    "size_of_set": {
+      "set2": "",
+      "set3": "",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "Kayu Jati",
+    "finishing": "Varnish Glossy",
+    "cbm": 0.28,
+    "remarks": {
+      "rangka": {
+        "harga": 350000,
+        "sub": "Solid Jati"
+      },
+      "anyam": {
+        "harga": 0,
+        "sub": ""
+      }
+    }
+  },
+  {
+    "nr": "2131026",
+    "photo": "DSC_0116.JPG",
+    "article_code": "2031068",
+    "name": "TEAK LOUNGE CHAIR",
+    "categories": "Rak",
+    "item_dimension": {
+      "w": 80,
+      "d": 40,
+      "h": 160
+    },
+    "packing_dimension": {
+      "w": 85,
+      "d": 45,
+      "h": 165
+    },
+    "size_of_set": {
+      "set2": "",
+      "set3": "",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "MDF + Besi",
+    "finishing": "Powder Coating",
+    "cbm": 0.60,
+    "remarks": {
+      "rangka": {
+        "harga": 450000,
+        "sub": "Frame besi hitam doff"
+      },
+      "anyam": {
+        "harga": 0,
+        "sub": ""
+      }
+    }
+  },
+  {
+    "nr": "2131027",
+    "photo": "194A9855.JPG",
+    "article_code": "2031068",
+    "name": "TEAK LOUNGE CHAIR",
+    "categories": "Rak",
+    "item_dimension": {
+      "w": 80,
+      "d": 40,
+      "h": 160
+    },
+    "packing_dimension": {
+      "w": 85,
+      "d": 45,
+      "h": 165
+    },
+    "size_of_set": {
+      "set2": "",
+      "set3": "",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "MDF + Besi",
+    "finishing": "Powder Coating",
+    "cbm": 0.60,
+    "remarks": {
+      "rangka": {
+        "harga": 450000,
+        "sub": "Frame besi hitam doff"
+      },
+      "anyam": {
+        "harga": 0,
+        "sub": ""
+      }
+    }
+  },
+   {
+    "nr": "ABCD2",
+    "photo": "2035023NB.jpeg",
+    "article_code": "2031067",
+    "name": "XL Guci SET 2 - Antique Brown",
+    "categories": "Meja",
+    "item_dimension": {
+      "w": 70,
+      "d": 70,
+      "h": 45
+    },
+    "packing_dimension": {
+      "w": 75,
+      "d": 75,
+      "h": 50
+    },
+    "size_of_set": {
+      "set2": "",
+      "set3": "",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "Kayu Jati",
+    "finishing": "Varnish Glossy",
+    "cbm": 0.28,
+    "remarks": {
+      "rangka": {
+        "harga": 350000,
+        "sub": "Solid Jati"
+      },
+      "anyam": {
+        "harga": 0,
+        "sub": ""
+      }
+    }
+  },
+   {
+    "nr": "2093041B.jpeg",
+    "photo": "2093041B.jpeg",
+    "article_code": "2031067",
+    "name": "XL Guci SET 2 - Antique Brown",
+    "categories": "Meja",
+    "item_dimension": {
+      "w": 70,
+      "d": 70,
+      "h": 45
+    },
+    "packing_dimension": {
+      "w": 75,
+      "d": 75,
+      "h": 50
+    },
+    "size_of_set": {
+      "set2": "",
+      "set3": "",
+      "set4": "",
+      "set5": ""
+    },
+    "composition": "Kayu Jati",
+    "finishing": "Varnish Glossy",
+    "cbm": 0.28,
+    "remarks": {
+      "rangka": {
+        "harga": 350000,
+        "sub": "Solid Jati"
+      },
+      "anyam": {
+        "harga": 0,
+        "sub": ""
+      }
+    }
+  }
+
+]
