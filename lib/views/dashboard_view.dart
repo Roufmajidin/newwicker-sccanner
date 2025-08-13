@@ -25,7 +25,7 @@ class _DashboardViewState extends State<DashboardView> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => ProductDetailView(product: null), // kosong
+        builder: (_) => ScannerView(product: null), // kosong
       ),
     );
   }
@@ -47,7 +47,7 @@ class _DashboardViewState extends State<DashboardView> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
-        padding: EdgeInsets.all(2),
+        padding: const EdgeInsets.all(2),
         shape: const CircularNotchedRectangle(),
         notchMargin: 6.0,
         child: BottomNavigationBar(
@@ -63,112 +63,102 @@ class _DashboardViewState extends State<DashboardView> {
         ),
       ),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              /// HEADER
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
-                    Icon(Icons.menu),
-                    Row(
-                      children: [
-                        Icon(Icons.search),
-                        SizedBox(width: 12),
-                        Icon(Icons.shopping_cart_outlined),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 24),
-
-              /// GREETING
-              ///
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text('NewWicker ,', style: TextStyle(fontSize: 20)),
-                    const Text(
-                      'Wellcome to Catalogue',
-                      style: TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 24),
-                  ],
-                ),
-              ),
-
-              /// CATEGORIES
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-
-                child: SizedBox(
-                  height: 60,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // HEADER
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: const [
+                  Icon(Icons.menu),
+                  Row(
                     children: [
-                      _buildCategoryIcon(Icons.chair_alt),
-                      _buildCategoryIcon(Icons.lightbulb_outline),
-                      _buildCategoryIcon(Icons.bed_outlined),
-                      _buildCategoryIcon(Icons.kitchen),
+                      Icon(Icons.search),
+                      SizedBox(width: 12),
+                      Icon(Icons.shopping_cart_outlined),
                     ],
                   ),
+                ],
+              ),
+            ),
+
+            // GREETING
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Text('NewWicker ,', style: TextStyle(fontSize: 20)),
+                  Text(
+                    'Welcome to Catalogue',
+                    style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(height: 24),
+                ],
+              ),
+            ),
+
+            // CATEGORY ICONS (lazy horizontal)
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: SizedBox(
+                height: 60,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: 4,
+                  itemBuilder: (context, index) {
+                    final icons = [
+                      Icons.chair_alt,
+                      Icons.lightbulb_outline,
+                      Icons.bed_outlined,
+                      Icons.kitchen,
+                    ];
+                    return _buildCategoryIcon(icons[index]);
+                  },
                 ),
               ),
-              const SizedBox(height: 24),
+            ),
 
-              /// POPULAR SECTION
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+            const SizedBox(height: 24),
 
-                child: Column(
-                  children: [
-                    const Text(
-                      'Popular',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                ),
+            // POPULAR TEXT
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                children: const [
+                  Text(
+                    'Popular',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
+            ),
 
-              Padding(
+            const SizedBox(height: 12),
+
+            // PRODUCT GRID - wrapped with Expanded (scrollable lazy!)
+            Expanded(
+              child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8),
-
                 child: GridView.builder(
-                  // shrinkWra  p: true,
                   padding: const EdgeInsets.all(12),
-                  gridDelegate:
-                      const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        mainAxisSpacing: 12,
-                        crossAxisSpacing: 12,
-                        childAspectRatio: 0.8,
-                      ),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    mainAxisSpacing: 12,
+                    crossAxisSpacing: 12,
+                    childAspectRatio: 0.8,
+                  ),
                   itemCount: products.length,
-                  physics: NeverScrollableScrollPhysics(), // biar scroll luar yang menangani
-
                   itemBuilder: (context, index) {
                     final product = products[index];
                     return _buildProductCard(product, context);
                   },
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

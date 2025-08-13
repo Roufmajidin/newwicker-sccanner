@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:newwicker/provider/product_provider.dart';
+import 'package:newwicker/views/scanner.dart';
 import 'package:provider/provider.dart';
 import '../models/products.dart';
 
@@ -204,9 +205,10 @@ class _ProductDetailViewState extends State<ProductDetailView>
                                 context,
                                 MaterialPageRoute(
                                   builder:
-                                      (_) =>
-                                          ProductDetailView(product: suggestion),
-                                ),
+                                      (_) => ProductDetailView(
+                                        product: suggestion,
+                                      ),
+                                )
                               );
                             },
                             emptyBuilder:
@@ -233,18 +235,20 @@ class _ProductDetailViewState extends State<ProductDetailView>
                           const SizedBox(height: 12),
                           const Text(
                             "Letak QR Code dalam kotak",
-                            style: TextStyle(fontSize: 14, color: Colors.black54),
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.black54,
+                            ),
                             textAlign: TextAlign.center,
                           ),
                           const SizedBox(height: 16),
                           ClipRRect(
                             borderRadius: BorderRadius.circular(12),
                             child: Stack(
-                
                               alignment: Alignment.center,
-                             
+
                               children: [
-                                  SizedBox(
+                                SizedBox(
                                   width: 280,
                                   height: 280,
                                   child: Image.asset(
@@ -391,11 +395,9 @@ class _ProductDetailViewState extends State<ProductDetailView>
 
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
-          // Reset ke mode scan ulang
-          Navigator.pushReplacement(
+          Navigator.of(
             context,
-            MaterialPageRoute(builder: (_) => const ProductDetailView()),
-          );
+          ).push(MaterialPageRoute(builder: (_) => ScannerView()));
         },
         icon: const Icon(Icons.qr_code_scanner),
         label: const Text("Scan Ulang"),
