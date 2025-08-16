@@ -1,15 +1,32 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:newwicker/helpers/image_from_external.dart';
+import 'package:newwicker/provider/cart_provider.dart';
 import 'package:newwicker/provider/product_provider.dart';
+import 'package:newwicker/views/cart_view.dart';
+import 'package:newwicker/views/databases/stactic_db.dart';
+import 'package:newwicker/views/edit.dart';
+import 'package:newwicker/views/sales_view.dart';
 import 'package:newwicker/views/scanner.dart';
 import 'package:provider/provider.dart';
 import '../models/products.dart';
 
 class ProductDetailView extends StatefulWidget {
-  final Product? product; // null artinya mode scan
+  final Product? product;
 
-  const ProductDetailView({super.key, this.product});
+  final int? id; // null artinya mode scan
+  final int? buyerId;
+  final String? status;
+  const ProductDetailView({
+    super.key,
+    this.product,
+    this.id,
+    this.buyerId,
+    this.status,
+  });
 
   @override
   State<ProductDetailView> createState() => _ProductDetailViewState();
@@ -124,7 +141,13 @@ class _ProductDetailViewState extends State<ProductDetailView>
 
       appBar: AppBar(
         leading: const BackButton(),
-        title: Text(product != null ? 'Detail Produk' : 'Scan QR'),
+        title: Text(
+          widget.id != null
+              ? 'Replace cart Produk'
+              : widget.buyerId != null
+              ? 'Add Produk buyer'
+              : 'Detail Produk',
+        ),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
         elevation: 0,
@@ -161,9 +184,9 @@ class _ProductDetailViewState extends State<ProductDetailView>
                               return provider.allProducts
                                   .where(
                                     (product) =>
-                                        product.nr.toLowerCase().contains(
-                                          pattern.toLowerCase(),
-                                        ) ||
+                                        product.articleCode
+                                            .toLowerCase()
+                                            .contains(pattern.toLowerCase()) ||
                                         product.name.toLowerCase().contains(
                                           pattern.toLowerCase(),
                                         ),
@@ -189,7 +212,7 @@ class _ProductDetailViewState extends State<ProductDetailView>
                             },
                             itemBuilder: (context, Product suggestion) {
                               return ListTile(
-                                title: Text(suggestion.nr),
+                                title: Text(suggestion.articleCode),
                                 subtitle: Text(suggestion.name),
                               );
                             },
@@ -199,7 +222,8 @@ class _ProductDetailViewState extends State<ProductDetailView>
                                 listen: false,
                               );
                               provider.foundProduct = suggestion;
-                              _articleNrController.text = suggestion.nr;
+                              _articleNrController.text =
+                                  suggestion.articleCode;
                               // _showProductBottomSheet(context, suggestion);
                               await Navigator.push(
                                 context,
@@ -208,7 +232,7 @@ class _ProductDetailViewState extends State<ProductDetailView>
                                       (_) => ProductDetailView(
                                         product: suggestion,
                                       ),
-                                )
+                                ),
                               );
                             },
                             emptyBuilder:
@@ -292,12 +316,29 @@ class _ProductDetailViewState extends State<ProductDetailView>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Center(
-                      child: Image.asset(
-                        'assets/images/${product.photo}',
-                        height: 220,
-                        errorBuilder:
-                            (_, __, ___) =>
-                                const Icon(Icons.image_not_supported),
+                      child: FutureBuilder<Uint8List?>(
+                        future: ImageHelper.loadWithCache(product.articleCode),
+                        builder: (context, snapshot) {
+                          if (snapshot.connectionState ==
+                              ConnectionState.waiting) {
+                            return Container(
+                              height: 220,
+                              color: Colors.grey.shade200,
+                            );
+                          }
+                          if (snapshot.hasData && snapshot.data != null) {
+                            return Image.memory(
+                              snapshot.data!,
+                              height: 220,
+                              fit: BoxFit.cover,
+                            );
+                          } else {
+                            return const Icon(
+                              Icons.image_not_supported,
+                              size: 50,
+                            );
+                          }
+                        },
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -314,7 +355,7 @@ class _ProductDetailViewState extends State<ProductDetailView>
                       style: const TextStyle(color: Colors.orangeAccent),
                     ),
                     Text(
-                      'Rp ${product.remarks.rangka.harga + product.remarks.anyam.harga}',
+                      'Rp ${product.fobJakartaInUsd}',
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -330,7 +371,13 @@ class _ProductDetailViewState extends State<ProductDetailView>
                     ),
                     _buildDetailRow('Composition', product.composition),
                     _buildDetailRow('Finishing', product.finishing),
-                    _buildDetailRow('CBM', product.cbm.toString()),
+                    _buildDetailRow(
+                      'CBM',
+                      (product.cbm < 0.44 ? 0.44 : product.cbm).toStringAsFixed(
+                        2,
+                      ),
+                    ),
+
                     const SizedBox(height: 12),
                     const Text(
                       'Item Dimensions',
@@ -338,7 +385,9 @@ class _ProductDetailViewState extends State<ProductDetailView>
                     ),
                     _buildDetailRow(
                       'W x D x H',
-                      '${product.itemDimension.w} x ${product.itemDimension.d} x ${product.itemDimension.h} cm',
+                      '${product.itemDimension.w.toStringAsFixed(1)} x '
+                          '${product.itemDimension.d.toStringAsFixed(1)} x '
+                          '${product.itemDimension.h.toStringAsFixed(1)} cm',
                     ),
                     const SizedBox(height: 8),
                     const Text(
@@ -374,20 +423,88 @@ class _ProductDetailViewState extends State<ProductDetailView>
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     _buildDetailRow(
-                      'Rangka',
-                      'Rp ${product.remarks.rangka.harga} (${product.remarks.rangka.sub})',
+                      'Value in USD',
+                      'Rp ${product.valueInIdrFormatted}',
                     ),
-                    _buildDetailRow(
-                      'Anyam',
-                      'Rp ${product.remarks.anyam.harga} (${product.remarks.anyam.sub})',
-                    ),
+                    _buildDetailRow('Remark', 'Rp ${product.remarks})'),
                     const SizedBox(height: 24),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.black,
+                    InkWell(
+                      onTap: () async {
+                        final cartProvider = Provider.of<CartProvider>(
+                          context,
+                          listen: false,
+                        );
+                        final db = await DBHelper.instance.database;
+                        if (widget.buyerId != null &&
+                            widget.status == "addnewitemtobuyercart") {
+                          // INSERT: tambah cart baru
+                          await cartProvider.addCartItem(
+                            buyerId: widget.buyerId,
+                            articleCode: product.articleCode,
+                          );
+                        }
+                        if (widget.id != null) {
+                          // EDIT: update cart berdasarkan id
+                          await db.update(
+                            'cart',
+                            {
+                              'article_code': product.articleCode,
+                              'created_at': DateTime.now().toIso8601String(),
+                              // 'buyer_id': 1,
+                            },
+                            where: 'id = ?',
+                            whereArgs: [widget.id],
+                          );
+                        } else {
+                          // INSERT: tambah cart baru
+                          await db.insert('cart', {
+                            'article_code': product.articleCode,
+                            'created_at': DateTime.now().toIso8601String(),
+                            'buyer_id': 1,
+                          });
+                        }
+
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              widget.id != null
+                                  ? "item cart berhasil diedit"
+                                  : 'Item berhasil ditambahkan ke keranjang',
+                            ),
+                            duration: Duration(seconds: 2),
+                          ),
+                        );
+                        if (widget.id != null) {
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(builder: (_) => SalesView()),
+                          );
+                        }
+                        if (widget.buyerId != null) {
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(
+                              builder:
+                                  (_) => EditCart(
+                                    buyerId: widget.buyerId!.toInt(),
+                                  ),
+                            ),
+                          );
+                        }
+                        if (widget.buyerId == null &&
+                            widget.id == null &&
+                            widget.status == '')
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(builder: (_) => CartView()),
+                          );
+                      },
+                      child: Container(
+                        padding: EdgeInsets.all(8),
+                        width: MediaQuery.of(context).size.width,
+                        decoration: BoxDecoration(
+                          color: Colors.amber,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Icon(Icons.shopping_cart_outlined),
                       ),
-                      onPressed: () {},
-                      child: const Text("Buy Now"),
                     ),
                   ],
                 ),

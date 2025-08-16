@@ -1,9 +1,16 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
+import 'package:newwicker/helpers/image_from_external.dart';
+import 'package:newwicker/views/cart_view.dart';
+import 'package:newwicker/views/databases/stactic_db.dart';
 import 'package:newwicker/views/details.dart';
-import 'package:newwicker/views/scanner.dart';
+import 'package:newwicker/views/qr_view.dart';
+import 'package:newwicker/views/sales_view.dart';
 import 'package:provider/provider.dart';
 import '../provider/product_provider.dart';
 import '../models/products.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class DashboardView extends StatefulWidget {
   const DashboardView({super.key});
@@ -24,14 +31,34 @@ class _DashboardViewState extends State<DashboardView> {
   void _openScanner() {
     Navigator.push(
       context,
+      // MaterialPageRoute(
+      //   builder: (_) => ScannerView(product: null), // kosong
+      // ),
       MaterialPageRoute(
-        builder: (_) => ScannerView(product: null), // kosong
+        builder: (_) => QRViewExample(), // kosong
       ),
     );
   }
 
+  Future<bool> requestStoragePermission() async {
+    var status = await Permission.storage.status;
+    if (!status.isGranted) {
+      status = await Permission.storage.request();
+    }
+    return status.isGranted;
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    requestStoragePermission();
+  }
+
   @override
   Widget build(BuildContext context) {
+    final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
     final productProvider = context.watch<ProductProvider>();
     final products =
         productProvider.foundProduct != null
@@ -39,6 +66,42 @@ class _DashboardViewState extends State<DashboardView> {
             : productProvider.allProducts;
 
     return Scaffold(
+      key: _scaffoldKey,
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            DrawerHeader(
+              child: Image.asset(
+                'assets/images/newwicker.png',
+                width: double.infinity,
+                height: double.infinity,
+                gaplessPlayback: true,
+              ),
+            ),
+            Builder(
+              builder:
+                  (drawerContext) => InkWell(
+                    onTap: () async {
+                      FocusScope.of(drawerContext).unfocus();
+
+                      // Tutup Drawer dulu
+                      Navigator.pop(drawerContext);
+
+                      // Navigasi ke halaman baru menggunakan context utama Scaffold
+                      await Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SalesView()),
+                      );
+                    },
+                    child: ListTile(
+                      leading: Icon(Icons.book),
+                      title: Text("Draft Sales"),
+                    ),
+                  ),
+            ),
+          ],
+        ),
+      ),
       backgroundColor: const Color.fromARGB(255, 230, 230, 230),
       floatingActionButton: FloatingActionButton(
         onPressed: _openScanner,
@@ -68,16 +131,29 @@ class _DashboardViewState extends State<DashboardView> {
           children: [
             // HEADER
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
-                  Icon(Icons.menu),
+                children: [
+                  InkWell(
+                    onTap: () {
+                      _scaffoldKey.currentState?.openDrawer();
+                    },
+                    child: const Icon(Icons.menu),
+                  ),
                   Row(
                     children: [
-                      Icon(Icons.search),
-                      SizedBox(width: 12),
-                      Icon(Icons.shopping_cart_outlined),
+                      // Icon(Icons.search),
+                      const SizedBox(width: 12),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => CartView()),
+                          );
+                        },
+                        child: const Icon(Icons.shopping_cart_outlined),
+                      ),
                     ],
                   ),
                 ],
@@ -187,7 +263,7 @@ class _DashboardViewState extends State<DashboardView> {
       },
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.8),
+          color: Colors.white,
           borderRadius: BorderRadius.circular(16),
         ),
         padding: const EdgeInsets.all(12),
@@ -197,7 +273,30 @@ class _DashboardViewState extends State<DashboardView> {
             Expanded(
               child:
                   product.photo.isNotEmpty
-                      ? Image.asset('assets/images/${product.photo}')
+                      ? FutureBuilder<Uint8List?>(
+                        future: ImageHelper.loadWithCache(product.articleCode),
+                        builder: (context, snapshot) {
+                          if (snapshot.connectionState ==
+                              ConnectionState.waiting) {
+                            return Container(
+                              color: Colors.grey.shade200,
+                              width: double.infinity,
+                              height: double.infinity,
+                            );
+                          }
+                          if (snapshot.hasData && snapshot.data != null) {
+                            return Image.memory(
+                              snapshot.data!,
+                              fit: BoxFit.cover,
+                              width: double.infinity,
+                              height: double.infinity,
+                              gaplessPlayback: true, // biar gak flicker
+                            );
+                          } else {
+                            return const Icon(Icons.broken_image, size: 50);
+                          }
+                        },
+                      )
                       : const FlutterLogo(),
             ),
             const SizedBox(height: 8),
@@ -208,7 +307,7 @@ class _DashboardViewState extends State<DashboardView> {
             Text('\$${product.cbm.toStringAsFixed(2)}'),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
+              children: [
                 Row(
                   children: [
                     Icon(Icons.star, size: 14, color: Colors.amber),
@@ -216,7 +315,25 @@ class _DashboardViewState extends State<DashboardView> {
                     Text('4.5'),
                   ],
                 ),
-                Icon(Icons.add_box_outlined),
+                InkWell(
+                  onTap: () async {
+                    final db = await DBHelper.instance.database;
+
+                    await db.insert('cart', {
+                      'article_code': product.articleCode,
+                      'created_at': DateTime.now().toIso8601String(),
+                      'buyer_id': 1,
+                    });
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('Item berhasil ditambahkan ke keranjang'),
+                        duration: Duration(seconds: 2),
+                      ),
+                    );
+                  },
+                  child: Icon(Icons.shopping_cart_outlined),
+                ),
               ],
             ),
           ],

@@ -191,7 +191,7 @@ class _ScannerViewState extends State<ScannerView>
                         return provider.allProducts
                             .where(
                               (product) =>
-                                  product.nr.toLowerCase().contains(
+                                  product.articleCode.toLowerCase().contains(
                                     pattern.toLowerCase(),
                                   ) ||
                                   product.name.toLowerCase().contains(
@@ -219,7 +219,7 @@ class _ScannerViewState extends State<ScannerView>
                       },
                       itemBuilder: (context, Product suggestion) {
                         return ListTile(
-                          title: Text(suggestion.nr),
+                          title: Text(suggestion.articleCode),
                           subtitle: Text(suggestion.name),
                         );
                       },
@@ -229,7 +229,7 @@ class _ScannerViewState extends State<ScannerView>
                           listen: false,
                         );
                         provider.foundProduct = suggestion;
-                        _articleNrController.text = suggestion.nr;
+                        _articleNrController.text = suggestion.articleCode;
                         // _showProductBottomSheet(context, suggestion);
                         await Navigator.push(
                           context,

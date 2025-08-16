@@ -16,21 +16,22 @@ class ProductProvider extends ChangeNotifier {
     _products = data.map((item) => Product.fromJson(item)).toList();
     notifyListeners();
   }
-   set foundProduct(Product? prod) {
+
+  set foundProduct(Product? prod) {
     _foundProduct = prod;
     notifyListeners();
   }
 
   // Fungsi load JSON
- 
+
   void clearScan() {
     _foundProduct = null;
     notifyListeners();
   }
 
-  void findProductByNr(String nrCode) {
+  Product findProductByNr(String nrCode) {
     final product = _products.firstWhere(
-      (p) => p.nr == nrCode,
+      (p) => p.articleCode == nrCode,
       orElse:
           () => Product(
             nr: nrCode,
@@ -38,19 +39,29 @@ class ProductProvider extends ChangeNotifier {
             articleCode: '',
             name: 'Tidak ditemukan',
             categories: '',
+            subCategories: '',
             itemDimension: Dimension(w: 0, d: 0, h: 0),
             packingDimension: Dimension(w: 0, d: 0, h: 0),
             sizeOfSet: SizeOfSet(set2: '', set3: '', set4: '', set5: ''),
             composition: '',
             finishing: '',
+            qty: 0,
             cbm: 0,
+            totalCbm: 0,
             remarks: Remarks(
               rangka: RemarkDetail(harga: 0, sub: ''),
               anyam: RemarkDetail(harga: 0, sub: ''),
             ),
+            fobJakartaInUsd: 0,
+            valueInUsd: 0,
           ),
     );
+    // _allProducts = product;
     _foundProduct = product;
+    loadProducts();
     notifyListeners();
+    return product;
   }
+  // update 
+  
 }
