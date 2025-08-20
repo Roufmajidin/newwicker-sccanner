@@ -4,7 +4,7 @@
         "photo": "2231016-B",
         "article_code": "2231016-B",
         "name": "NEW URANI LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -21,20 +21,20 @@
         "item_dimension": {
             "w": 70.0,
             "d": 82.0,
-            "h": 68
+            "h": 68.0
         },
         "packing_dimension": {
             "w": 73.0,
             "d": 85.0,
-            "h": 71
+            "h": 71.0
         }
     },
     {
         "nr.": 2,
         "photo": "23314003",
-        "article_code": 23314003,
+        "article_code": "23314003",
         "name": "ERA BARSTOOL - NEW COLOR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-BC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -51,20 +51,20 @@
         "item_dimension": {
             "w": 54.0,
             "d": 57.0,
-            "h": 98
+            "h": 98.0
         },
         "packing_dimension": {
             "w": 57.0,
             "d": 60.0,
-            "h": 101
+            "h": 101.0
         }
     },
     {
         "nr.": 3,
         "photo": "23311015",
-        "article_code": 23311015,
+        "article_code": "23311015",
         "name": "PRITA LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -81,20 +81,20 @@
         "item_dimension": {
             "w": 65.0,
             "d": 78.0,
-            "h": 60
+            "h": 60.0
         },
         "packing_dimension": {
             "w": 68.0,
             "d": 81.0,
-            "h": 63
+            "h": 63.0
         }
     },
     {
         "nr.": 4,
         "photo": "23312023",
-        "article_code": 23312023,
+        "article_code": "23312023",
         "name": "AXEL CHAIR STD CUSHION",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -111,20 +111,20 @@
         "item_dimension": {
             "w": 63.0,
             "d": 55.0,
-            "h": 77
+            "h": 77.0
         },
         "packing_dimension": {
             "w": 66.0,
             "d": 58.0,
-            "h": 80
+            "h": 80.0
         }
     },
     {
         "nr.": 5,
         "photo": "2491017",
-        "article_code": 2491017,
+        "article_code": "2491017",
         "name": "URANI LOUNGE CHAIR-SEAGRASS",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -141,22 +141,22 @@
         "item_dimension": {
             "w": 71.0,
             "d": 83.0,
-            "h": 67
+            "h": 67.0
         },
         "packing_dimension": {
             "w": 74.0,
             "d": 86.0,
-            "h": 70
+            "h": 70.0
         }
     },
     {
         "nr.": 6,
         "photo": "2491019",
-        "article_code": 2491019,
+        "article_code": "2491019",
         "name": "RIHANA CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
-        "remark": "Price is for 1 piece , but wil be packed 2pcs/box",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
@@ -182,9 +182,9 @@
     {
         "nr.": 7,
         "photo": "2491020",
-        "article_code": 2491020,
+        "article_code": "2491020",
         "name": "NEW WISHBONE BANANA CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -201,20 +201,20 @@
         "item_dimension": {
             "w": 57.0,
             "d": 55.0,
-            "h": 74
+            "h": 74.0
         },
         "packing_dimension": {
             "w": 60.0,
             "d": 58.0,
-            "h": 77
+            "h": 77.0
         }
     },
     {
         "nr.": 8,
         "photo": "2531006",
-        "article_code": 2531006,
+        "article_code": "2531006",
         "name": "ICE LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -242,9 +242,9 @@
     {
         "nr.": 9,
         "photo": "2531007",
-        "article_code": 2531007,
+        "article_code": "2531007",
         "name": "ICE ROCKING CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -252,7 +252,7 @@
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Synthetic-Rubber",
-        "finishing": "Nigerian Satin Wood",
+        "finishing": "Euro Ash",
         "qty": 1.0,
         "cbm": 0.647745,
         "fob_jakarta_in_usd": 171.0,
@@ -261,12 +261,12 @@
         "item_dimension": {
             "w": 67.0,
             "d": 96.5,
-            "h": 90
+            "h": 90.0
         },
         "packing_dimension": {
             "w": 70.0,
             "d": 99.5,
-            "h": 93
+            "h": 93.0
         }
     },
     {
@@ -274,7 +274,7 @@
         "photo": "2431024-NS",
         "article_code": "2431024-NS",
         "name": "BRITANY LOUNGE CHAIR - NON SWIVEL",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -291,20 +291,20 @@
         "item_dimension": {
             "w": 78.0,
             "d": 85.0,
-            "h": 66
+            "h": 66.0
         },
         "packing_dimension": {
             "w": 81.0,
             "d": 88.0,
-            "h": 69
+            "h": 69.0
         }
     },
     {
         "nr.": 11,
         "photo": "2531008",
-        "article_code": 2531008,
+        "article_code": "2531008",
         "name": "MARLON LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -321,20 +321,20 @@
         "item_dimension": {
             "w": 77.0,
             "d": 79.0,
-            "h": 73
+            "h": 73.0
         },
         "packing_dimension": {
             "w": 80.0,
             "d": 82.0,
-            "h": 76
+            "h": 76.0
         }
     },
     {
         "nr.": 12,
         "photo": "2531010",
-        "article_code": 2531010,
+        "article_code": "2531010",
         "name": "TRESA LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -351,20 +351,20 @@
         "item_dimension": {
             "w": 84.5,
             "d": 74.0,
-            "h": 70
+            "h": 70.0
         },
         "packing_dimension": {
             "w": 87.5,
             "d": 77.0,
-            "h": 73
+            "h": 73.0
         }
     },
     {
         "nr.": 13,
         "photo": "2531011",
-        "article_code": 2531011,
+        "article_code": "2531011",
         "name": "BULMA LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -392,9 +392,9 @@
     {
         "nr.": 14,
         "photo": "2531015",
-        "article_code": 2531015,
+        "article_code": "2531015",
         "name": "PAPSKI DINING CHAIR - UPHOLSTERY",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -411,20 +411,20 @@
         "item_dimension": {
             "w": 53.5,
             "d": 58.0,
-            "h": 75
+            "h": 75.0
         },
         "packing_dimension": {
             "w": 56.5,
             "d": 61.0,
-            "h": 78
+            "h": 78.0
         }
     },
     {
         "nr.": 15,
         "photo": "2531016",
-        "article_code": 2531016,
+        "article_code": "2531016",
         "name": "ASUGA DINING CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -441,20 +441,20 @@
         "item_dimension": {
             "w": 66.0,
             "d": 61.0,
-            "h": 82
+            "h": 82.0
         },
         "packing_dimension": {
             "w": 69.0,
             "d": 64.0,
-            "h": 85
+            "h": 85.0
         }
     },
     {
         "nr.": 16,
         "photo": "2531018",
-        "article_code": 2531018,
+        "article_code": "2531018",
         "name": "HANIYA BENCH",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-BN",
         "remark": "",
         "size_of_set_set_2": "",
@@ -471,20 +471,20 @@
         "item_dimension": {
             "w": 118.5,
             "d": 53.0,
-            "h": 52
+            "h": 52.0
         },
         "packing_dimension": {
             "w": 121.5,
             "d": 56.0,
-            "h": 55
+            "h": 55.0
         }
     },
     {
         "nr.": 17,
         "photo": "2531019",
-        "article_code": 2531019,
+        "article_code": "2531019",
         "name": "ROXY LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -501,20 +501,20 @@
         "item_dimension": {
             "w": 80.0,
             "d": 75.0,
-            "h": 89
+            "h": 89.0
         },
         "packing_dimension": {
             "w": 83.0,
             "d": 78.0,
-            "h": 92
+            "h": 92.0
         }
     },
     {
         "nr.": 18,
         "photo": "2531020",
-        "article_code": 2531020,
+        "article_code": "2531020",
         "name": "RENDA DINING CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -531,20 +531,20 @@
         "item_dimension": {
             "w": 67.5,
             "d": 68.5,
-            "h": 105
+            "h": 105.0
         },
         "packing_dimension": {
             "w": 70.5,
             "d": 71.5,
-            "h": 108
+            "h": 108.0
         }
     },
     {
         "nr.": 19,
         "photo": "2531023",
-        "article_code": 2531023,
+        "article_code": "2531023",
         "name": "DONAT SOFA",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-SF",
         "remark": "",
         "size_of_set_set_2": "",
@@ -574,7 +574,7 @@
         "photo": "2531023-B",
         "article_code": "2531023-B",
         "name": "DONAT SOFA - SINGLE",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-SF",
         "remark": "",
         "size_of_set_set_2": "",
@@ -591,20 +591,20 @@
         "item_dimension": {
             "w": 105.0,
             "d": 100.0,
-            "h": 70
+            "h": 70.0
         },
         "packing_dimension": {
             "w": 108.0,
             "d": 103.0,
-            "h": 73
+            "h": 73.0
         }
     },
     {
         "nr.": 21,
         "photo": "2531025",
-        "article_code": 2531025,
+        "article_code": "2531025",
         "name": "ICE SOFA",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-SF",
         "remark": "",
         "size_of_set_set_2": "",
@@ -632,9 +632,9 @@
     {
         "nr.": 22,
         "photo": "2531028",
-        "article_code": 2531028,
+        "article_code": "2531028",
         "name": "JIRO BENCH",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-BN",
         "remark": "",
         "size_of_set_set_2": "",
@@ -651,20 +651,20 @@
         "item_dimension": {
             "w": 150.0,
             "d": 41.5,
-            "h": 46
+            "h": 46.0
         },
         "packing_dimension": {
             "w": 153.0,
             "d": 44.5,
-            "h": 49
+            "h": 49.0
         }
     },
     {
         "nr.": 23,
         "photo": "2591004",
-        "article_code": 2591004,
+        "article_code": "2591004",
         "name": "SHANIA DINING CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -672,7 +672,7 @@
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Rattan core",
-        "finishing": "??",
+        "finishing": "Classic Brown",
         "qty": 4.0,
         "cbm": 0.21476,
         "fob_jakarta_in_usd": 79.0,
@@ -681,20 +681,20 @@
         "item_dimension": {
             "w": 53.0,
             "d": 56.0,
-            "h": 62
+            "h": 62.0
         },
         "packing_dimension": {
             "w": 56.0,
             "d": 59.0,
-            "h": 65
+            "h": 65.0
         }
     },
     {
         "nr.": 24,
         "photo": "2591005",
-        "article_code": 2591005,
+        "article_code": "2591005",
         "name": "LOWI LOUNGE CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -702,29 +702,29 @@
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Wood",
-        "finishing": "NC Teak  ",
+        "finishing": "Rustic Brown Wash",
         "qty": 1.0,
         "cbm": 0.514431,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.514431,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 78.0,
             "d": 84.0,
-            "h": 70
+            "h": 70.0
         },
         "packing_dimension": {
             "w": 81.0,
             "d": 87.0,
-            "h": 73
+            "h": 73.0
         }
     },
     {
         "nr.": 25,
         "photo": "2591007",
-        "article_code": 2591007,
+        "article_code": "2591007",
         "name": "NEW BATARA CHAIR",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-LC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -732,59 +732,59 @@
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Rattan - Fitrit",
-        "finishing": "",
+        "finishing": "Classic Brown",
         "qty": 1.0,
         "cbm": 0.358425,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.358425,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 56.0,
             "d": 64.5,
-            "h": 87
+            "h": 87.0
         },
         "packing_dimension": {
             "w": 59.0,
             "d": 67.5,
-            "h": 90
+            "h": 90.0
         }
     },
     {
         "nr.": 26,
         "photo": "2591008",
-        "article_code": 2591008,
+        "article_code": "2591008",
         "name": "SHANIA STOOL",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-ST",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Rattan 3/4 polish, rattan core",
+        "finishing": "Classic Brown",
         "qty": 1.0,
         "cbm": 0.11055625,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.11055625,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 44.5,
             "d": 44.5,
-            "h": 46
+            "h": 46.0
         },
         "packing_dimension": {
             "w": 47.5,
             "d": 47.5,
-            "h": 49
+            "h": 49.0
         }
     },
     {
         "nr.": 27,
         "photo": "2591009",
-        "article_code": 2591009,
+        "article_code": "2591009",
         "name": "YUKARI DINING CHAIR - NEW",
-        "categories": "seat_sofa",
+        "categories": "Seat & Sofa",
         "sub_categories": "SE-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -810,41 +810,11 @@
         }
     },
     {
-        "nr.": 28,
-        "photo": "22921001",
-        "article_code": 22921001,
-        "name": "ENZY SIDE TABLE",
-        "categories": "table_cabinet",
-        "sub_categories": "TB-ST",
-        "remark": "",
-        "size_of_set_set_2": "",
-        "size_of_set_set_3": "",
-        "size_of_set_set_4": "",
-        "size_of_set_set_5": "",
-        "composition": "Rattan Frame , plywood , rattan fitrit",
-        "finishing": "NC Natural Finishing",
-        "qty": 1.0,
-        "cbm": 0.117649,
-        "fob_jakarta_in_usd": 42.0,
-        "total_cbm": 0.117649,
-        "value_in_usd": 42.0,
-        "item_dimension": {
-            "w": 46.0,
-            "d": 46.0,
-            "h": 46
-        },
-        "packing_dimension": {
-            "w": 49.0,
-            "d": 49.0,
-            "h": 49
-        }
-    },
-    {
         "nr.": 29,
         "photo": "2492006",
-        "article_code": 2492006,
+        "article_code": "2492006",
         "name": "OCLEE COFFEE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-CT",
         "remark": "",
         "size_of_set_set_2": "",
@@ -861,20 +831,20 @@
         "item_dimension": {
             "w": 127.0,
             "d": 91.0,
-            "h": 40
+            "h": 40.0
         },
         "packing_dimension": {
             "w": 130.0,
             "d": 94.0,
-            "h": 43
+            "h": 43.0
         }
     },
     {
         "nr.": 30,
         "photo": "2532001",
-        "article_code": 2532001,
+        "article_code": "2532001",
         "name": "GENDANG SIDE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-ST",
         "remark": "",
         "size_of_set_set_2": "",
@@ -891,22 +861,22 @@
         "item_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 53
+            "h": 53.0
         },
         "packing_dimension": {
             "w": 46.0,
             "d": 46.0,
-            "h": 56
+            "h": 56.0
         }
     },
     {
         "nr.": 31,
         "photo": "2532002",
-        "article_code": 2532002,
+        "article_code": "2532002",
         "name": "MOLINI ELEPHANT SIDE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-ST",
-        "remark": "KIDS",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
@@ -921,20 +891,20 @@
         "item_dimension": {
             "w": 45.0,
             "d": 69.0,
-            "h": 48
+            "h": 48.0
         },
         "packing_dimension": {
             "w": 48.0,
             "d": 72.0,
-            "h": 51
+            "h": 51.0
         }
     },
     {
         "nr.": 32,
         "photo": "2532010",
-        "article_code": 2532010,
+        "article_code": "2532010",
         "name": "ADINDA SIDE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-ST",
         "remark": "",
         "size_of_set_set_2": "",
@@ -962,9 +932,9 @@
     {
         "nr.": 33,
         "photo": "2532011",
-        "article_code": 2532011,
+        "article_code": "2532011",
         "name": "GRACELYN SIDE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-ST",
         "remark": "",
         "size_of_set_set_2": "",
@@ -992,16 +962,16 @@
     {
         "nr.": 34,
         "photo": "2532012",
-        "article_code": 2532012,
+        "article_code": "2532012",
         "name": "ICE COFFEE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-CF",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "Iron frame-Synthetic ",
+        "composition": "Iron frame-Synthetic",
         "finishing": "White Shell",
         "qty": 1.0,
         "cbm": 0.30096,
@@ -1011,27 +981,27 @@
         "item_dimension": {
             "w": 101.5,
             "d": 61.0,
-            "h": 42
+            "h": 42.0
         },
         "packing_dimension": {
             "w": 104.5,
             "d": 64.0,
-            "h": 45
+            "h": 45.0
         }
     },
     {
         "nr.": 35,
         "photo": "2592001",
-        "article_code": 2592001,
+        "article_code": "2592001",
         "name": "PATO SIDE TABLE",
-        "categories": "table_cabinet",
+        "categories": "Table & Cabinet",
         "sub_categories": "TB-ST",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "Iron Frame , Rattan Fitrit",
+        "composition": "Rattan 1/2 Polish , Rattan Fitrit",
         "finishing": "Natural",
         "qty": 4.0,
         "cbm": 0.088752,
@@ -1041,23 +1011,23 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 45
+            "h": 45.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 48
+            "h": 48.0
         }
     },
     {
         "nr.": 36,
         "photo": "2533001",
-        "article_code": 2533001,
+        "article_code": "2533001",
         "name": "BORINA BASKET SET F 2-A",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W42 X D42 X 41 cm",
+        "size_of_set_set_2": "W 42 X D 42 X 41 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
@@ -1071,23 +1041,23 @@
         "item_dimension": {
             "w": 54.0,
             "d": 54.0,
-            "h": 50
+            "h": 50.0
         },
         "packing_dimension": {
             "w": 57.0,
             "d": 57.0,
-            "h": 53
+            "h": 53.0
         }
     },
     {
         "nr.": 37,
         "photo": "2533007",
-        "article_code": 2533007,
+        "article_code": "2533007",
         "name": "BORINA BASKET SET F 2-B",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W33 X D33 X H36 cm",
+        "size_of_set_set_2": "W 33 X D 33 X H 36 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
@@ -1101,20 +1071,20 @@
         "item_dimension": {
             "w": 45.0,
             "d": 45.0,
-            "h": 45
+            "h": 45.0
         },
         "packing_dimension": {
             "w": 48.0,
             "d": 48.0,
-            "h": 48
+            "h": 48.0
         }
     },
     {
         "nr.": 38,
         "photo": "2533008",
-        "article_code": 2533008,
+        "article_code": "2533008",
         "name": "NARA SINGLE BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
@@ -1124,9 +1094,9 @@
         "composition": "Banana-Fiber rope",
         "finishing": "Natural-Navy",
         "qty": 1.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 27.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 27.0,
         "item_dimension": {
             "w": 38.0,
@@ -1142,21 +1112,21 @@
     {
         "nr.": 39,
         "photo": "2533009",
-        "article_code": 2533009,
+        "article_code": "2533009",
         "name": "SEINA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W44XD40XH41/51",
+        "size_of_set_set_2": "W 44 X D 40 X H 41/51",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Banana bleach-Cotton rope",
         "finishing": "Natural-Hitam",
         "qty": 12.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 23.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 276.0,
         "item_dimension": {
             "w": 52.0,
@@ -1172,21 +1142,21 @@
     {
         "nr.": 40,
         "photo": "2533013",
-        "article_code": 2533013,
+        "article_code": "2533013",
         "name": "SAMERI BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W31,5X D31,5 X H26,5/35 cm",
+        "size_of_set_set_2": "W 31,5 X D 31,5 X H 26,5/35 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Agel",
         "finishing": "Bleach-Natural-Peach",
         "qty": 3.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 27.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 81.0,
         "item_dimension": {
             "w": 37.5,
@@ -1202,21 +1172,21 @@
     {
         "nr.": 41,
         "photo": "2533018",
-        "article_code": 2533018,
+        "article_code": "2533018",
         "name": "GALUH BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W36 X D36 X H32/39 cm",
+        "size_of_set_set_2": "W 36 X D 36 X H 32/39 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Banana",
         "finishing": "Natural-Bleach",
         "qty": 1.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 25.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 25.0,
         "item_dimension": {
             "w": 51.0,
@@ -1232,21 +1202,21 @@
     {
         "nr.": 42,
         "photo": "2533019",
-        "article_code": 2533019,
+        "article_code": "2533019",
         "name": "JENAR BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W54 X D38 X H34/42 cm",
+        "size_of_set_set_2": "W 54 X D 38 X H 34/42 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Banana",
         "finishing": "Bleach",
         "qty": 2.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 25.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 50.0,
         "item_dimension": {
             "w": 65.0,
@@ -1262,12 +1232,12 @@
     {
         "nr.": 43,
         "photo": "2533020",
-        "article_code": 2533020,
+        "article_code": "2533020",
         "name": "KARTA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W32 X D33 X H31,5cm",
+        "size_of_set_set_2": "W 32 X D 33 X H 31,5cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
@@ -1292,9 +1262,9 @@
     {
         "nr.": 44,
         "photo": "2533023",
-        "article_code": 2533023,
+        "article_code": "2533023",
         "name": "MIAMI BASKET-A",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
@@ -1311,20 +1281,20 @@
         "item_dimension": {
             "w": 43.5,
             "d": 43.5,
-            "h": 31
+            "h": 31.0
         },
         "packing_dimension": {
             "w": 46.5,
             "d": 46.5,
-            "h": 34
+            "h": 34.0
         }
     },
     {
         "nr.": 45,
         "photo": "2533024",
-        "article_code": 2533024,
+        "article_code": "2533024",
         "name": "MIAMI BASKET-B",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
@@ -1341,20 +1311,20 @@
         "item_dimension": {
             "w": 49.5,
             "d": 49.5,
-            "h": 33
+            "h": 33.0
         },
         "packing_dimension": {
             "w": 52.5,
             "d": 52.5,
-            "h": 36
+            "h": 36.0
         }
     },
     {
         "nr.": 46,
         "photo": "2533025",
-        "article_code": 2533025,
+        "article_code": "2533025",
         "name": "MIAMI BASKET-C",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
@@ -1371,23 +1341,23 @@
         "item_dimension": {
             "w": 49.5,
             "d": 49.5,
-            "h": 33
+            "h": 33.0
         },
         "packing_dimension": {
             "w": 52.5,
             "d": 52.5,
-            "h": 36
+            "h": 36.0
         }
     },
     {
         "nr.": 47,
         "photo": "2533032",
-        "article_code": 2533032,
+        "article_code": "2533032",
         "name": "CHIEKO BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W37 X D37 X H30/37 cm",
+        "size_of_set_set_2": "W 37 X D 37 X H 30/37 cm",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
@@ -1406,20 +1376,20 @@
         "packing_dimension": {
             "w": 50.5,
             "d": 50.5,
-            "h": 45
+            "h": 45.0
         }
     },
     {
         "nr.": 48,
         "photo": "2533035",
-        "article_code": 2533035,
+        "article_code": "2533035",
         "name": "DAICHI BASKET SET OF 3",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W46,5 X D49 X H30/37 cm",
-        "size_of_set_set_3": "W39,5 X D38 X H27/33 cm",
-        "size_of_set_set_4": "",
+        "size_of_set_set_2": "W 46,5 X D 49 X H 30/37 cm",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "W 39,5 X D 38 X H 27/33 cm",
         "size_of_set_set_5": "",
         "composition": "Banana-Cotton rope",
         "finishing": "Natural-Dark Brown",
@@ -1436,15 +1406,15 @@
         "packing_dimension": {
             "w": 69.0,
             "d": 72.0,
-            "h": 47
+            "h": 47.0
         }
     },
     {
         "nr.": 49,
         "photo": "2533036",
-        "article_code": 2533036,
+        "article_code": "2533036",
         "name": "HANA STORAGE",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
@@ -1472,14 +1442,14 @@
     {
         "nr.": 50,
         "photo": "2593001",
-        "article_code": 2593001,
+        "article_code": "2593001",
         "name": "ABHRA BASKET SET OF 3",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W42 x D42 x H40,5 cm",
-        "size_of_set_set_3": "W32 x D32 x H29",
-        "size_of_set_set_4": "",
+        "size_of_set_set_2": "W 42 x D 42 x H 40,5 cm",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "W 32 x D 32 x H 29",
         "size_of_set_set_5": "",
         "composition": "Rattan core-Skin antique lasio",
         "finishing": "Antique Brown wash",
@@ -1491,28 +1461,28 @@
         "item_dimension": {
             "w": 58.5,
             "d": 58.5,
-            "h": 56
+            "h": 56.0
         },
         "packing_dimension": {
             "w": 61.5,
             "d": 61.5,
-            "h": 59
+            "h": 59.0
         }
     },
     {
         "nr.": 51,
         "photo": "2593004",
-        "article_code": 2593004,
+        "article_code": "2593004",
         "name": "CAROL BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
-        "remark": "L:dia 47x60cm\nS: dia30x40",
-        "size_of_set_set_2": "W30 x D30 x H43",
+        "remark": "",
+        "size_of_set_set_2": "W 30 x D 30 x H 43",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Rattan core-Skin antique lasio",
+        "finishing": "Classic Brown",
         "qty": 1.0,
         "cbm": 0.1725,
         "fob_jakarta_in_usd": 65.0,
@@ -1521,28 +1491,28 @@
         "item_dimension": {
             "w": 47.0,
             "d": 47.0,
-            "h": 66
+            "h": 66.0
         },
         "packing_dimension": {
             "w": 50.0,
             "d": 50.0,
-            "h": 69
+            "h": 69.0
         }
     },
     {
         "nr.": 52,
         "photo": "2593005",
-        "article_code": 2593005,
+        "article_code": "2593005",
         "name": "CHANA BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Braided mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
         "cbm": 0.194481,
         "fob_jakarta_in_usd": 29.0,
@@ -1551,28 +1521,28 @@
         "item_dimension": {
             "w": 60.0,
             "d": 60.0,
-            "h": 46
+            "h": 46.0
         },
         "packing_dimension": {
             "w": 63.0,
             "d": 63.0,
-            "h": 49
+            "h": 49.0
         }
     },
     {
         "nr.": 53,
         "photo": "2593006",
-        "article_code": 2593006,
+        "article_code": "2593006",
         "name": "CEMAL BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W36 x D36 x H31",
+        "size_of_set_set_2": "W 36 x D 36 x H 31",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Braided mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
         "cbm": 0.077658,
         "fob_jakarta_in_usd": 32.0,
@@ -1581,28 +1551,28 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 39
+            "h": 39.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 42
+            "h": 42.0
         }
     },
     {
         "nr.": 54,
         "photo": "2593007",
-        "article_code": 2593007,
+        "article_code": "2593007",
         "name": "AZARI BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35 x D35 x H29",
+        "size_of_set_set_2": "W 35 x D 35 x H 29",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Braided mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
         "cbm": 0.077658,
         "fob_jakarta_in_usd": 29.0,
@@ -1611,28 +1581,28 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 39
+            "h": 39.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 42
+            "h": 42.0
         }
     },
     {
         "nr.": 55,
         "photo": "2593009",
-        "article_code": 2593009,
+        "article_code": "2593009",
         "name": "CHESA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W42 x D42 x H49 ",
+        "size_of_set_set_2": "W 42 x D 42 x H 49",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana,",
+        "finishing": "Natural - Bleach",
         "qty": 1.0,
         "cbm": 0.163072,
         "fob_jakarta_in_usd": 35.0,
@@ -1641,32 +1611,32 @@
         "item_dimension": {
             "w": 53.0,
             "d": 53.0,
-            "h": 49
+            "h": 49.0
         },
         "packing_dimension": {
             "w": 56.0,
             "d": 56.0,
-            "h": 52
+            "h": 52.0
         }
     },
     {
         "nr.": 56,
         "photo": "2593011",
-        "article_code": 2593011,
+        "article_code": "2593011",
         "name": "DYNA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W 33X D33XH36/43",
+        "size_of_set_set_2": "W 33 X D 33 X H 36/43",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Waterhyacinth",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 29.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 29.0,
         "item_dimension": {
             "w": 44.0,
@@ -1682,21 +1652,21 @@
     {
         "nr.": 57,
         "photo": "2593012",
-        "article_code": 2593012,
+        "article_code": "2593012",
         "name": "DARA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W 33XD 33X H23/32",
+        "size_of_set_set_2": "W 33 X D 33 X H 23/32",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.0,
@@ -1712,21 +1682,21 @@
     {
         "nr.": 58,
         "photo": "2593013",
-        "article_code": 2593013,
+        "article_code": "2593013",
         "name": "DARA TRAY SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "W 39 XD 31 XH 11/19",
+        "size_of_set_set_2": "W 39 X D 31 X H 11/19",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana Bleach-Waterhyacinth",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 48.0,
@@ -1742,21 +1712,21 @@
     {
         "nr.": 59,
         "photo": "2593015",
-        "article_code": 2593015,
+        "article_code": "2593015",
         "name": "AUBREE BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Waterhyacinth-Seagrass-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 67.0,
@@ -1772,21 +1742,21 @@
     {
         "nr.": 60,
         "photo": "2593016",
-        "article_code": 2593016,
+        "article_code": "2593016",
         "name": "SIENNA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W42XD31XH21/29",
+        "size_of_set_set_2": "W 42 X D 31 X H 21/29",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Cotton rope",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 49.0,
@@ -1802,51 +1772,51 @@
     {
         "nr.": 61,
         "photo": "2593017",
-        "article_code": 2593017,
+        "article_code": "2593017",
         "name": "ZARINE BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W34XD34XH31",
+        "size_of_set_set_2": "W 34 X D 34 X H 31",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Cotton rope",
+        "finishing": "Natural-Beige-Soft Blue",
         "qty": 1.0,
         "cbm": 0.060516,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.060516,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 38.0,
             "d": 38.0,
-            "h": 33
+            "h": 33.0
         },
         "packing_dimension": {
             "w": 41.0,
             "d": 41.0,
-            "h": 36
+            "h": 36.0
         }
     },
     {
         "nr.": 62,
         "photo": "2593018",
-        "article_code": 2593018,
+        "article_code": "2593018",
         "name": "COLLINS BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W43XD37XH36/43",
+        "size_of_set_set_2": "W 43 X D 37 X H 36/43",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Cotton rope",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 50.0,
@@ -1862,21 +1832,21 @@
     {
         "nr.": 63,
         "photo": "2593019",
-        "article_code": 2593019,
+        "article_code": "2593019",
         "name": "AGNES BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35XD35XH35/42",
+        "size_of_set_set_2": "W 35 X D 35 X H 35/42",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Raffia",
+        "finishing": "Natural-White-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 39.0,
@@ -1892,21 +1862,21 @@
     {
         "nr.": 64,
         "photo": "2593020",
-        "article_code": 2593020,
+        "article_code": "2593020",
         "name": "ZOYA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W40XD31XH25/34",
+        "size_of_set_set_2": "W 40 X D 31 X H 25/34",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Raffia",
+        "finishing": "White-Soft Blue-Navy Blue",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 45.0,
@@ -1922,20 +1892,20 @@
     {
         "nr.": 65,
         "photo": "2593023",
-        "article_code": 2593023,
+        "article_code": "2593023",
         "name": "BENE BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35,5XD35,5XH38",
+        "size_of_set_set_2": "W 35,5 X D 35,5 X H 38",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong-Agel",
+        "finishing": "Natural-Black",
         "qty": 1.0,
         "cbm": 0.084096,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.084096,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -1952,21 +1922,21 @@
     {
         "nr.": 66,
         "photo": "2593024",
-        "article_code": 2593024,
+        "article_code": "2593024",
         "name": "FOX BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W41XD40XH28/32",
+        "size_of_set_set_2": "W 41 X D 40 X H 28/32",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Raffia",
+        "finishing": "Natural-White-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 45.0,
@@ -1982,20 +1952,20 @@
     {
         "nr.": 67,
         "photo": "2593025",
-        "article_code": 2593025,
+        "article_code": "2593025",
         "name": "BENAYA BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Seagrass",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.186,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.186,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -2006,117 +1976,117 @@
         "packing_dimension": {
             "w": 62.0,
             "d": 60.0,
-            "h": 50
+            "h": 50.0
         }
     },
     {
         "nr.": 68,
         "photo": "2593026",
-        "article_code": 2593026,
+        "article_code": "2593026",
         "name": "BONE BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Seagrass",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.13608,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.13608,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 69.0,
             "d": 60.0,
-            "h": 27
+            "h": 27.0
         },
         "packing_dimension": {
             "w": 72.0,
             "d": 63.0,
-            "h": 30
+            "h": 30.0
         }
     },
     {
         "nr.": 69,
         "photo": "2593027",
-        "article_code": 2593027,
+        "article_code": "2593027",
         "name": "CACTUS BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.215985,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.215985,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 74.0,
             "d": 48.0,
-            "h": 52
+            "h": 52.0
         },
         "packing_dimension": {
             "w": 77.0,
             "d": 51.0,
-            "h": 55
+            "h": 55.0
         }
     },
     {
         "nr.": 70,
         "photo": "2593028",
-        "article_code": 2593028,
+        "article_code": "2593028",
         "name": "CALEV BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W39,5XD39,5XH65",
+        "size_of_set_set_2": "W 39,5 X D 39,5 X H 65",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana Bleach",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.209952,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.209952,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 51.0,
             "d": 51.0,
-            "h": 69
+            "h": 69.0
         },
         "packing_dimension": {
             "w": 54.0,
             "d": 54.0,
-            "h": 72
+            "h": 72.0
         }
     },
     {
         "nr.": 71,
         "photo": "2593029",
-        "article_code": 2593029,
+        "article_code": "2593029",
         "name": "DEMAS BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W39XD39XH38/47",
+        "size_of_set_set_2": "W 39 X D 39 X H 38/47",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong-Cotton Rope-Raffia",
+        "finishing": "Natural-Black-Soft Blue",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 44.0,
@@ -2132,21 +2102,21 @@
     {
         "nr.": 72,
         "photo": "2593030",
-        "article_code": 2593030,
+        "article_code": "2593030",
         "name": "ELI BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W38XD38XH38/46",
+        "size_of_set_set_2": "W 38 X D 38 X H 38/46",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Seagrass-Banana Bleach",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 43.0,
@@ -2162,21 +2132,21 @@
     {
         "nr.": 73,
         "photo": "2593031",
-        "article_code": 2593031,
+        "article_code": "2593031",
         "name": "ELIEL BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W36XD36XH38/46",
+        "size_of_set_set_2": "W 36 X D 36 X H 38/46",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana Bleach-Raffia",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.0,
@@ -2192,21 +2162,21 @@
     {
         "nr.": 74,
         "photo": "2593032",
-        "article_code": 2593032,
+        "article_code": "2593032",
         "name": "FLOWY BASKET SET OF 3",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W52XD52XH20/27",
-        "size_of_set_set_3": "W43XD43X19/26",
-        "size_of_set_set_4": "",
+        "size_of_set_set_2": "W 52 X D 52 X H 20/27",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "W 43 X D 43 X 19/26",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 61.0,
@@ -2222,21 +2192,21 @@
     {
         "nr.": 75,
         "photo": "2593033",
-        "article_code": 2593033,
+        "article_code": "2593033",
         "name": "FLOWER BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W56XD56XH46/53 ",
+        "size_of_set_set_2": "W 56 X D 56 X H 46/53",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 62.0,
@@ -2252,21 +2222,21 @@
     {
         "nr.": 76,
         "photo": "2593034",
-        "article_code": 2593034,
-        "name": "ELY BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "article_code": "2593034",
+        "name": "ELLA BASKET SET OF 2",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W42XD42XH25/35",
+        "size_of_set_set_2": "W 42 X D 42 X H 25/35",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 53.0,
@@ -2282,81 +2252,81 @@
     {
         "nr.": 77,
         "photo": "2593035",
-        "article_code": 2593035,
+        "article_code": "2593035",
         "name": "HYMAN BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W 36XD 36 X H 40 ",
+        "size_of_set_set_2": "W 36 X D 36 X H 40",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Seagrass-Banana Bleach-Banana Natural",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 39.0,
             "d": 39.0,
-            "h": 45
+            "h": 45.0
         },
         "packing_dimension": {
             "w": 42.0,
             "d": 42.0,
-            "h": 48
+            "h": 48.0
         }
     },
     {
         "nr.": 78,
         "photo": "2593036",
-        "article_code": 2593036,
+        "article_code": "2593036",
         "name": "GUMI OVAL TRAY",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "W 33X D 33X H 43 ",
+        "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit",
+        "finishing": "Classic Brown",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 44.0,
             "d": 44.0,
-            "h": 46
+            "h": 46.0
         },
         "packing_dimension": {
             "w": 47.0,
             "d": 47.0,
-            "h": 49
+            "h": 49.0
         }
     },
     {
         "nr.": 79,
         "photo": "2593037",
-        "article_code": 2593037,
+        "article_code": "2593037",
         "name": "MIA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W57XD60XH25/32",
+        "size_of_set_set_2": "W 57 X D 60 X H 25/32",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 65.0,
@@ -2372,21 +2342,21 @@
     {
         "nr.": 80,
         "photo": "2593038",
-        "article_code": 2593038,
+        "article_code": "2593038",
         "name": "FREYA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W39XD39XH42/51",
-        "size_of_set_set_3": "W34XD34XH40/49",
-        "size_of_set_set_4": "",
+        "size_of_set_set_2": "W 39 X D 39 X H 42/51",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "W 34 X D 34 X H 40/49",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 46.0,
@@ -2402,21 +2372,21 @@
     {
         "nr.": 81,
         "photo": "2593039",
-        "article_code": 2593039,
+        "article_code": "2593039",
         "name": "CARIA TRAY SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "W38X D38X H7",
+        "size_of_set_set_2": "W 38 X D 38 X H 7",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong-Seagrass-Plywood",
+        "finishing": "Natural-Black-White",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 46.0,
@@ -2432,51 +2402,51 @@
     {
         "nr.": 82,
         "photo": "2593040",
-        "article_code": 2593040,
+        "article_code": "2593040",
         "name": "BEATRICE BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana Bleach",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 46.0,
             "d": 46.0,
-            "h": 43
+            "h": 43.0
         },
         "packing_dimension": {
             "w": 49.0,
             "d": 49.0,
-            "h": 46
+            "h": 46.0
         }
     },
     {
         "nr.": 83,
         "photo": "2593041",
-        "article_code": 2593041,
+        "article_code": "2593041",
         "name": "BELLVA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W37XD37XH37/47 ",
+        "size_of_set_set_2": "W 37 X D 37 X H 37/47",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Agel Bleach",
+        "finishing": "Natural",
         "qty": 2.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.0,
@@ -2492,141 +2462,141 @@
     {
         "nr.": 84,
         "photo": "2593042",
-        "article_code": 2593042,
+        "article_code": "2593042",
         "name": "FLOWY TRAY SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "W31XD31XH6",
+        "size_of_set_set_2": "W 31 X D 31 X H 6",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana Bleach",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 42.0,
             "d": 42.0,
-            "h": 6
+            "h": 6.0
         },
         "packing_dimension": {
             "w": 45.0,
             "d": 45.0,
-            "h": 9
+            "h": 9.0
         }
     },
     {
         "nr.": 85,
         "photo": "2593043",
-        "article_code": 2593043,
+        "article_code": "2593043",
         "name": "BRENDA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W37XD37XH39",
+        "size_of_set_set_2": "W 37 X D 37 X H 39",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana Natural-Banana Bleach",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.5,
             "d": 41.5,
-            "h": 39
+            "h": 39.0
         },
         "packing_dimension": {
             "w": 44.5,
             "d": 44.5,
-            "h": 42
+            "h": 42.0
         }
     },
     {
         "nr.": 86,
         "photo": "2593044",
-        "article_code": 2593044,
+        "article_code": "2593044",
         "name": "BRIANNA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W 38,5X D 36 X H 33",
+        "size_of_set_set_2": "W 38,5 X D 36 X H 33",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Seagrass",
+        "finishing": "Natuiral-Red-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 45.0,
             "d": 42.0,
-            "h": 37
+            "h": 37.0
         },
         "packing_dimension": {
             "w": 48.0,
             "d": 45.0,
-            "h": 40
+            "h": 40.0
         }
     },
     {
         "nr.": 87,
         "photo": "2593045",
-        "article_code": 2593045,
+        "article_code": "2593045",
         "name": "DELLA BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 34.0,
             "d": 22.0,
-            "h": 25
+            "h": 25.0
         },
         "packing_dimension": {
             "w": 37.0,
             "d": 25.0,
-            "h": 28
+            "h": 28.0
         }
     },
     {
         "nr.": 88,
         "photo": "2593046",
-        "article_code": 2593046,
+        "article_code": "2593046",
         "name": "PELANGI BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35 x D35 x H29/39",
+        "size_of_set_set_2": "W 35 x D 35 x H 29/39",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "",
         "finishing": "",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 42.0,
@@ -2642,81 +2612,81 @@
     {
         "nr.": 89,
         "photo": "2593047",
-        "article_code": 2593047,
+        "article_code": "2593047",
         "name": "PURPLE BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong",
+        "finishing": "Natural-Purple",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 38.0,
             "d": 38.0,
-            "h": 25
+            "h": 25.0
         },
         "packing_dimension": {
             "w": 41.0,
             "d": 41.0,
-            "h": 28
+            "h": 28.0
         }
     },
     {
         "nr.": 90,
         "photo": "2593048",
-        "article_code": 2593048,
+        "article_code": "2593048",
         "name": "CHERYL BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong",
+        "finishing": "Natural-Green",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 42.0,
             "d": 42.0,
-            "h": 20
+            "h": 20.0
         },
         "packing_dimension": {
             "w": 45.0,
             "d": 45.0,
-            "h": 23
+            "h": 23.0
         }
     },
     {
         "nr.": 91,
         "photo": "2593049",
-        "article_code": 2593049,
+        "article_code": "2593049",
         "name": "DREYA BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong",
+        "finishing": "Natural-Red",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 38.0,
@@ -2732,261 +2702,261 @@
     {
         "nr.": 92,
         "photo": "2593050",
-        "article_code": 2593050,
+        "article_code": "2593050",
         "name": "EIKO TRASH BIN",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Mendong-Fabric",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 24.0,
             "d": 24.0,
-            "h": 27
+            "h": 27.0
         },
         "packing_dimension": {
             "w": 27.0,
             "d": 27.0,
-            "h": 30
+            "h": 30.0
         }
     },
     {
         "nr.": 93,
         "photo": "2593051",
-        "article_code": 2593051,
+        "article_code": "2593051",
         "name": "GENTO BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Seagrass-Fabric",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 37.5,
             "d": 37.5,
-            "h": 33
+            "h": 33.0
         },
         "packing_dimension": {
             "w": 40.5,
             "d": 40.5,
-            "h": 36
+            "h": 36.0
         }
     },
     {
         "nr.": 94,
         "photo": "2593052",
-        "article_code": 2593052,
+        "article_code": "2593052",
         "name": "GAYE RD TRAY SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "",
+        "size_of_set_set_2": "DIA30 X 7",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": 41.0,
-            "d": 41.0,
-            "h": "31/41"
+            "w": 36.0,
+            "d": 36.0,
+            "h": 8.0
         },
         "packing_dimension": {
-            "w": 44.0,
-            "d": 44.0,
-            "h": "34/44"
+            "w": 39.0,
+            "d": 39.0,
+            "h": 11.0
         }
     },
     {
         "nr.": 95,
         "photo": "2593053",
-        "article_code": 2593053,
+        "article_code": "2593053",
         "name": "GAYE OVAL TRAY SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
-        "size_of_set_set_2": "",
+        "size_of_set_set_2": "W 45 X D 31 X H 7",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": 48.0,
-            "d": 39.0,
-            "h": "16/25"
+            "w": 56.0,
+            "d": 40.0,
+            "h": 8.0
         },
         "packing_dimension": {
-            "w": 51.0,
-            "d": 42.0,
-            "h": "19/28 "
+            "w": 59.0,
+            "d": 43.0,
+            "h": 11.0
         }
     },
     {
         "nr.": 96,
         "photo": "2593054",
-        "article_code": 2593054,
+        "article_code": "2593054",
         "name": "BRONTOSAURUS  BASKET",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Fitrit",
+        "finishing": "Soft Gren",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 45.0,
             "d": 69.0,
-            "h": 48
+            "h": 48.0
         },
         "packing_dimension": {
             "w": 48.0,
             "d": 72.0,
-            "h": 51
+            "h": 51.0
         }
     },
     {
         "nr.": 97,
         "photo": "2593056",
-        "article_code": 2593056,
+        "article_code": "2593056",
         "name": "GIA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35XD35XH33",
+        "size_of_set_set_2": "W 35 X D 35 X H 33",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit",
+        "finishing": "Grey",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.0,
             "d": 41.0,
-            "h": 39
+            "h": 39.0
         },
         "packing_dimension": {
             "w": 44.0,
             "d": 44.0,
-            "h": 42
+            "h": 42.0
         }
     },
     {
         "nr.": 98,
         "photo": "2593059",
-        "article_code": 2593059,
+        "article_code": "2593059",
         "name": "HADLEY BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W34XD34XH38",
+        "size_of_set_set_2": "W 34 X D 34 X H 38",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit",
+        "finishing": "Classic Brown",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 46
+            "h": 46.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 49
+            "h": 49.0
         }
     },
     {
         "nr.": 99,
         "photo": "2593060",
-        "article_code": 2593060,
+        "article_code": "2593060",
         "name": "KAMILA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W28XD25XH24",
+        "size_of_set_set_2": "W 28 X D 25 X H 24",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana Bleach",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 31.0,
             "d": 27.5,
-            "h": 27
+            "h": 27.0
         },
         "packing_dimension": {
             "w": 34.0,
             "d": 30.5,
-            "h": 30
+            "h": 30.0
         }
     },
     {
         "nr.": 100,
         "photo": "2593061",
-        "article_code": 2593061,
+        "article_code": "2593061",
         "name": "LUCY BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W35XD35XH38,5/45",
+        "size_of_set_set_2": "W 35 X D 35 X H 38,5/45",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "",
         "finishing": "",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.0,
@@ -3002,21 +2972,21 @@
     {
         "nr.": 101,
         "photo": "2593062",
-        "article_code": 2593062,
+        "article_code": "2593062",
         "name": "BORLA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W39,5XD39,5XH35/45",
+        "size_of_set_set_2": "W 39,5 X D 39,5 X H 35/45",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Banana-Agel",
+        "finishing": "Natural-Bleach-Brown",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 49.0,
@@ -3032,39 +3002,39 @@
     {
         "nr.": 102,
         "photo": "2593063",
-        "article_code": 2593063,
+        "article_code": "2593063",
         "name": "MALIA BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "",
+        "size_of_set_set_2": "W 38 X D 22 X H 32",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Banan Bleach-Cotton Rope",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 31.0,
+            "d": 30.0,
+            "h": 40.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 34.0,
+            "d": 33.0,
+            "h": 43.0
         }
     },
     {
         "nr.": 103,
         "photo": "2593064",
-        "article_code": 2593064,
+        "article_code": "2593064",
         "name": "NEW ESPAN OVAL SINGLE TRAY",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3072,31 +3042,31 @@
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Plywood - Bamboo webbing - Unskin lasio",
-        "finishing": "",
+        "finishing": "Natural",
         "qty": 20.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 14.0,
-        "total_cbm": "",
-        "value_in_usd": "",
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 53.5,
             "d": 37.0,
-            "h": 5
+            "h": 5.0
         },
         "packing_dimension": {
             "w": 56.5,
             "d": 39.0,
-            "h": 8
+            "h": 8.0
         }
     },
     {
         "nr.": 104,
         "photo": "2593065",
-        "article_code": 2593065,
+        "article_code": "2593065",
         "name": "GEDHE BASKET - CB",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
-        "remark": "AS IT IS",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
@@ -3104,9 +3074,9 @@
         "composition": "Rattal CL",
         "finishing": "Classic Brown",
         "qty": 1.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 55.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 55.0,
         "item_dimension": {
             "w": 75.0,
@@ -3122,9 +3092,9 @@
     {
         "nr.": 105,
         "photo": "2593066",
-        "article_code": 2593066,
+        "article_code": "2593066",
         "name": "GUMI TRAY",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-TR",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3134,9 +3104,9 @@
         "composition": "Iron frame-Fitrit",
         "finishing": "Antique brown",
         "qty": 30.0,
-        "cbm": "",
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 35.0,
-        "total_cbm": "",
+        "total_cbm": 0.0,
         "value_in_usd": 1050.0,
         "item_dimension": {
             "w": 68.0,
@@ -3152,42 +3122,42 @@
     {
         "nr.": 106,
         "photo": "2593067",
-        "article_code": 2593067,
+        "article_code": "2593067",
         "name": "PHOEBE BASKET SET OF 2",
-        "categories": "basket_tray_storage",
+        "categories": "Basket, Tray, Storage",
         "sub_categories": "ST-BK",
         "remark": "",
-        "size_of_set_set_2": "W36XD36XH39/46",
+        "size_of_set_set_2": "W 36 X D 36 X H 39/46",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Fitrit",
+        "finishing": "Sage Green",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 41.5,
             "d": 41.5,
-            "h": 54
+            "h": 54.0
         },
         "packing_dimension": {
             "w": 44.5,
             "d": 44.5,
-            "h": 57
+            "h": 57.0
         }
     },
     {
         "nr.": 107,
         "photo": "2494006",
-        "article_code": 2494006,
+        "article_code": "2494006",
         "name": "JELLYFISH LANTERN SET OF 2-GIANT",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-LN",
         "remark": "",
-        "size_of_set_set_2": "W44 x D44 x H53/66",
+        "size_of_set_set_2": "W 44 x D 44 x H 53/66",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
@@ -3201,20 +3171,20 @@
         "item_dimension": {
             "w": 49.0,
             "d": 49.0,
-            "h": 76
+            "h": 76.0
         },
         "packing_dimension": {
             "w": 52.0,
             "d": 52.0,
-            "h": 79
+            "h": 79.0
         }
     },
     {
         "nr.": 108,
         "photo": "2534002",
-        "article_code": 2534002,
+        "article_code": "2534002",
         "name": "YUKARI TABLE LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3223,11 +3193,11 @@
         "size_of_set_set_5": "",
         "composition": "Iron frame-Fitrit-Electricity",
         "finishing": "Natural",
-        "qty": 2.0,
+        "qty": 1.0,
         "cbm": 0.0952235,
         "fob_jakarta_in_usd": 65.0,
-        "total_cbm": 0.190447,
-        "value_in_usd": 130.0,
+        "total_cbm": 0.0952235,
+        "value_in_usd": 65.0,
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
@@ -3244,20 +3214,20 @@
         "photo": "2534002-B",
         "article_code": "2534002-B",
         "name": "YUKARI TABLE LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Fitrit-Electricity",
         "finishing": "Natural",
-        "qty": 2.0,
+        "qty": 1.0,
         "cbm": 0.0952235,
         "fob_jakarta_in_usd": 65.0,
-        "total_cbm": 0.190447,
-        "value_in_usd": 130.0,
+        "total_cbm": 0.0952235,
+        "value_in_usd": 65.0,
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
@@ -3272,9 +3242,9 @@
     {
         "nr.": 111,
         "photo": "2534004",
-        "article_code": 2534004,
+        "article_code": "2534004",
         "name": "SADA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3291,20 +3261,20 @@
         "item_dimension": {
             "w": 61.5,
             "d": 61.5,
-            "h": 80
+            "h": 80.0
         },
         "packing_dimension": {
             "w": 64.5,
             "d": 64.5,
-            "h": 83
+            "h": 83.0
         }
     },
     {
         "nr.": 112,
         "photo": "2534005",
-        "article_code": 2534005,
+        "article_code": "2534005",
         "name": "YUNA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3321,20 +3291,20 @@
         "item_dimension": {
             "w": 62.0,
             "d": 62.0,
-            "h": 116
+            "h": 116.0
         },
         "packing_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 119
+            "h": 119.0
         }
     },
     {
         "nr.": 113,
         "photo": "2534014",
-        "article_code": 2534014,
+        "article_code": "2534014",
         "name": "AIYA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
@@ -3345,247 +3315,247 @@
         "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.154548,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.154548,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 51.0,
             "d": 51.0,
-            "h": 50
+            "h": 50.0
         },
         "packing_dimension": {
             "w": 54.0,
             "d": 54.0,
-            "h": 53
+            "h": 53.0
         }
     },
     {
         "nr.": 114,
         "photo": "2594001",
-        "article_code": 2594001,
+        "article_code": "2594001",
         "name": "REMI HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit-Antique Lasio",
+        "finishing": "Light Brown",
         "qty": 1.0,
         "cbm": 0.223925,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.223925,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 62.0,
             "d": 62.0,
-            "h": 50
+            "h": 50.0
         },
         "packing_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 53
+            "h": 53.0
         }
     },
     {
         "nr.": 115,
         "photo": "2594002",
-        "article_code": 2594002,
+        "article_code": "2594002",
         "name": "REESE HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit-Antique Lasio",
+        "finishing": "Light Brown",
         "qty": 1.0,
         "cbm": 0.223925,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.223925,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 62.0,
             "d": 62.0,
-            "h": 50
+            "h": 50.0
         },
         "packing_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 53
+            "h": 53.0
         }
     },
     {
         "nr.": 116,
         "photo": "2594003",
-        "article_code": 2594003,
+        "article_code": "2594003",
         "name": "SARA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit-Antique Lasio",
+        "finishing": "Light Brown",
         "qty": 1.0,
         "cbm": 0.223925,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.223925,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 62.0,
             "d": 62.0,
-            "h": 50
+            "h": 50.0
         },
         "packing_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 53
+            "h": 53.0
         }
     },
     {
         "nr.": 117,
         "photo": "2594006",
-        "article_code": 2594006,
+        "article_code": "2594006",
         "name": "NOA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
-        "cbm": 0.0,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0,
+        "cbm": 0.057319,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.057319,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 40.0,
+            "d": 40.0,
+            "h": 28.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 43.0,
+            "d": 43.0,
+            "h": 31.0
         }
     },
     {
         "nr.": 118,
         "photo": "2594007",
-        "article_code": 2594007,
+        "article_code": "2594007",
         "name": "NINA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Mendong",
+        "finishing": "Natural-Black",
         "qty": 1.0,
         "cbm": 0.120984,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.120984,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 68.0,
             "d": 68.0,
-            "h": 21
+            "h": 21.0
         },
         "packing_dimension": {
             "w": 71.0,
             "d": 71.0,
-            "h": 24
+            "h": 24.0
         }
     },
     {
         "nr.": 119,
         "photo": "2594008",
-        "article_code": 2594008,
+        "article_code": "2594008",
         "name": "LILA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Mendong",
+        "finishing": "Natural-Brick",
         "qty": 1.0,
-        "cbm": 0.0,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0,
+        "cbm": 0.044376,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.044376,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 40.0,
+            "d": 40.0,
+            "h": 20.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 43.0,
+            "d": 43.0,
+            "h": 24.0
         }
     },
     {
         "nr.": 120,
         "photo": "2594009",
-        "article_code": 2594009,
+        "article_code": "2594009",
         "name": "SOPHIA FLOOR LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-FL",
-        "remark": "top fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron frame-Fitrit",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.83052825,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.83052825,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 65.5,
             "d": 65.5,
-            "h": 174
+            "h": 174.0
         },
         "packing_dimension": {
             "w": 68.5,
             "d": 68.5,
-            "h": 177
+            "h": 177.0
         }
     },
     {
         "nr.": 121,
         "photo": "2594010",
-        "article_code": 2594010,
+        "article_code": "2594010",
         "name": "STEVIE HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
-        "remark": "large",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Rattan Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.0862025,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.0862025,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -3602,489 +3572,489 @@
     {
         "nr.": 122,
         "photo": "2594011",
-        "article_code": 2594011,
+        "article_code": "2594011",
         "name": "STELLA HANGING LAMP",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-HL",
-        "remark": "small",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Rattan Frame-Banana",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.066439,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.066439,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 26.0,
             "d": 26.0,
-            "h": 76
+            "h": 76.0
         },
         "packing_dimension": {
             "w": 29.0,
             "d": 29.0,
-            "h": 79
+            "h": 79.0
         }
     },
     {
         "nr.": 123,
         "photo": "2594012",
-        "article_code": 2594012,
+        "article_code": "2594012",
         "name": "CILY LANTERN SET OF 2 - BLUE",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-LN",
-        "remark": "color change",
-        "size_of_set_set_2": "",
+        "remark": "",
+        "size_of_set_set_2": "W 42 X D 42 X H 44/61",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Slimit",
         "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": 41.0,
-            "d": 41.0,
-            "h": 63
+            "w": 45.0,
+            "d": 45.0,
+            "h": "46/67"
         },
         "packing_dimension": {
-            "w": 44.0,
-            "d": 44.0,
-            "h": 66
+            "w": 48.0,
+            "d": 48.0,
+            "h": "49/70"
         }
     },
     {
         "nr.": 124,
         "photo": "2594013",
-        "article_code": 2594013,
+        "article_code": "2594013",
         "name": "SOPHIA FLOOR LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-FL",
-        "remark": "kap kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.83052825,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.83052825,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 65.5,
             "d": 65.5,
-            "h": 174
+            "h": 174.0
         },
         "packing_dimension": {
             "w": 68.5,
             "d": 68.5,
-            "h": 177
+            "h": 177.0
         }
     },
     {
         "nr.": 125,
         "photo": "2594014",
-        "article_code": 2594014,
+        "article_code": "2594014",
         "name": "WILLA TABLE LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Beige",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0276,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0276,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 20.0,
+            "d": 27.0,
+            "h": 37.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 23.0,
+            "d": 30.0,
+            "h": 40.0
         }
     },
     {
         "nr.": 126,
         "photo": "2594015",
-        "article_code": 2594015,
+        "article_code": "2594015",
         "name": "WILLA TABLE LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Beige",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 28.0,
+            "d": 20.0,
+            "h": 26.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 31.0,
+            "d": 23.0,
+            "h": 29.0
         }
     },
     {
         "nr.": 127,
         "photo": "2594016",
-        "article_code": 2594016,
+        "article_code": "2594016",
         "name": "ZORA TABLE LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Light Blue",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 20.0,
             "d": 23.0,
-            "h": 29
+            "h": 29.0
         },
         "packing_dimension": {
             "w": 23.0,
             "d": 26.0,
-            "h": 32
+            "h": 32.0
         }
     },
     {
         "nr.": 128,
         "photo": "2594017",
-        "article_code": 2594017,
+        "article_code": "2594017",
         "name": "ZORA TABLE LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Light Blue",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 28.0,
+            "d": 20.0,
+            "h": 35.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 31.0,
+            "d": 23.0,
+            "h": 38.0
         }
     },
     {
         "nr.": 129,
         "photo": "2594018",
-        "article_code": 2594018,
+        "article_code": "2594018",
         "name": "POPPY TABLE LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Off White",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 20.0,
             "d": 20.0,
-            "h": 29
+            "h": 29.0
         },
         "packing_dimension": {
             "w": 23.0,
             "d": 23.0,
-            "h": 32
+            "h": 32.0
         }
     },
     {
         "nr.": 130,
         "photo": "2594019",
-        "article_code": 2594019,
+        "article_code": "2594019",
         "name": "POPPY TABLE LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Mika-Fabric",
+        "finishing": "Off White",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 15.0,
+            "d": 25.0,
+            "h": 34.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 18.0,
+            "d": 28.0,
+            "h": 37.0
         }
     },
     {
         "nr.": 131,
         "photo": "2594020",
-        "article_code": 2594020,
+        "article_code": "2594020",
         "name": "ORIAN TAMBLE LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Fitrit",
+        "finishing": "Baby Green",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 20.0,
+            "d": 20.0,
+            "h": 23.0
         },
         "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "w": 24.0,
+            "d": 24.0,
+            "h": 27.0
         }
     },
     {
         "nr.": 132,
         "photo": "2594021",
-        "article_code": 2594021,
+        "article_code": "2594021",
         "name": "ORIAN TAMBLE LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-TL",
-        "remark": "fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Terracotta-iron frame-Fitrit",
+        "finishing": "Baby Green",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 28.0,
             "d": 20.0,
-            "h": 29
+            "h": 29.0
         },
         "packing_dimension": {
             "w": 31.0,
             "d": 23.0,
-            "h": 32
+            "h": 32.0
         }
     },
     {
         "nr.": 133,
         "photo": "2594022",
-        "article_code": 2594022,
+        "article_code": "2594022",
         "name": "YUKARI FLOOR LAMP - A",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-FL",
-        "remark": "kain",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit-Mika-Fabric",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 175
+            "h": 175.0
         },
         "packing_dimension": {
             "w": 68.0,
             "d": 68.0,
-            "h": 178
+            "h": 178.0
         }
     },
     {
         "nr.": 134,
         "photo": "2594023",
-        "article_code": 2594023,
+        "article_code": "2594023",
         "name": "YUKARI FLOOR LAMP - B",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-FL",
-        "remark": "fitrit",
+        "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 65.0,
             "d": 65.0,
-            "h": 175
+            "h": 175.0
         },
         "packing_dimension": {
             "w": 68.0,
             "d": 68.0,
-            "h": 178
+            "h": 178.0
         }
     },
     {
         "nr.": 135,
         "photo": "2594024",
-        "article_code": 2594024,
+        "article_code": "2594024",
         "name": "CILY LANTERN SET OF 2 - RED",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-LN",
-        "remark": "color change",
-        "size_of_set_set_2": "",
+        "remark": "",
+        "size_of_set_set_2": "W 42 X D 42 X H 44/61",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Slimit",
         "finishing": "Natural",
-        "qty": 4.0,
-        "cbm": 0.127776,
+        "qty": 1.0,
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 49.0,
-        "total_cbm": 0.511104,
-        "value_in_usd": 196.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 49.0,
         "item_dimension": {
-            "w": 41.0,
-            "d": 41.0,
-            "h": 63
+            "w": 45.0,
+            "d": 45.0,
+            "h": "46/67"
         },
         "packing_dimension": {
-            "w": 44.0,
-            "d": 44.0,
-            "h": 66
+            "w": 48.0,
+            "d": 48.0,
+            "h": "49/70"
         }
     },
     {
         "nr.": 136,
         "photo": "2594025",
-        "article_code": 2594025,
+        "article_code": "2594025",
         "name": "CILY LANTERN SET OF 2 - GREEN",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-LN",
-        "remark": "color change",
-        "size_of_set_set_2": "",
+        "remark": "",
+        "size_of_set_set_2": "W 42 X D 42 X H 44/61",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Slimit",
         "finishing": "Natural",
-        "qty": 4.0,
-        "cbm": 0.127776,
+        "qty": 1.0,
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 49.0,
-        "total_cbm": 0.511104,
-        "value_in_usd": 196.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 49.0,
         "item_dimension": {
-            "w": 41.0,
-            "d": 41.0,
-            "h": 63
+            "w": 45.0,
+            "d": 45.0,
+            "h": "46/67"
         },
         "packing_dimension": {
-            "w": 44.0,
-            "d": 44.0,
-            "h": 66
+            "w": 48.0,
+            "d": 48.0,
+            "h": "49/70"
         }
     },
     {
         "nr.": 137,
         "photo": "2594026",
-        "article_code": 2594026,
+        "article_code": "2594026",
         "name": "CILY LANTERN SET OF 2 - BROWN",
-        "categories": "hurricane_lamp",
+        "categories": "Hurricane & Lamp",
         "sub_categories": "LT-LN",
-        "remark": "color change",
-        "size_of_set_set_2": "",
+        "remark": "",
+        "size_of_set_set_2": "W 42 X D 42 X H 44/61",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
         "composition": "Iron frame-Slimit",
         "finishing": "Natural",
-        "qty": 4.0,
-        "cbm": 0.127776,
+        "qty": 1.0,
+        "cbm": 0.0,
         "fob_jakarta_in_usd": 49.0,
-        "total_cbm": 0.511104,
-        "value_in_usd": 196.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 49.0,
         "item_dimension": {
-            "w": 41.0,
-            "d": 41.0,
-            "h": 63
+            "w": 45.0,
+            "d": 45.0,
+            "h": "46/67"
         },
         "packing_dimension": {
-            "w": 44.0,
-            "d": 44.0,
-            "h": 66
+            "w": 48.0,
+            "d": 48.0,
+            "h": "49/70"
         }
     },
     {
         "nr.": 138,
         "photo": "23951003",
-        "article_code": 23951003,
+        "article_code": "23951003",
         "name": "BETSY PLACEMAT-A",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-PM",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4101,20 +4071,20 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 1
+            "h": 1.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 4
+            "h": 4.0
         }
     },
     {
         "nr.": 139,
         "photo": "23951004",
-        "article_code": 23951004,
+        "article_code": "23951004",
         "name": "BETSY PLACEMAT-B",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-PM",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4131,20 +4101,20 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 1
+            "h": 1.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 4
+            "h": 4.0
         }
     },
     {
         "nr.": 140,
         "photo": "23951005",
-        "article_code": 23951005,
+        "article_code": "23951005",
         "name": "BETSY PLACEMAT-C",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-PM",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4161,20 +4131,20 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 1
+            "h": 1.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 4
+            "h": 4.0
         }
     },
     {
         "nr.": 141,
         "photo": "23951006",
-        "article_code": 23951006,
+        "article_code": "23951006",
         "name": "BETSY PLACEMAT-D",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-PM",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4191,20 +4161,20 @@
         "item_dimension": {
             "w": 40.0,
             "d": 40.0,
-            "h": 1
+            "h": 1.0
         },
         "packing_dimension": {
             "w": 43.0,
             "d": 43.0,
-            "h": 4
+            "h": 4.0
         }
     },
     {
         "nr.": 142,
         "photo": "2435094",
-        "article_code": 2435094,
+        "article_code": "2435094",
         "name": "SUNNY PLACEMAT",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-PM",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4221,20 +4191,20 @@
         "item_dimension": {
             "w": 35.0,
             "d": 35.0,
-            "h": 1
+            "h": 1.0
         },
         "packing_dimension": {
             "w": 38.0,
             "d": 38.0,
-            "h": 4
+            "h": 4.0
         }
     },
     {
         "nr.": 143,
         "photo": "24350146",
-        "article_code": 24350146,
+        "article_code": "24350146",
         "name": "XIVY WALL DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4251,21 +4221,21 @@
         "item_dimension": {
             "w": 120.0,
             "d": 120.0,
-            "h": 2
+            "h": 2.0
         },
         "packing_dimension": {
             "w": 123.0,
             "d": 123.0,
-            "h": 5
+            "h": 5.0
         }
     },
     {
         "nr.": 144,
         "photo": "2535008",
-        "article_code": 2535008,
+        "article_code": "2535008",
         "name": "WIDIA MAGAZINE HOLDER",
-        "categories": "accessories",
-        "sub_categories": "",
+        "categories": "Accessories",
+        "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
@@ -4292,9 +4262,9 @@
     {
         "nr.": 145,
         "photo": "2535013",
-        "article_code": 2535013,
+        "article_code": "2535013",
         "name": "BEBI SHOULDER BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4316,15 +4286,15 @@
         "packing_dimension": {
             "w": 50.0,
             "d": 17.0,
-            "h": 40
+            "h": 40.0
         }
     },
     {
         "nr.": 146,
         "photo": "2535014",
-        "article_code": 2535014,
+        "article_code": "2535014",
         "name": "BISKA SHOULDER BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4346,15 +4316,15 @@
         "packing_dimension": {
             "w": 44.0,
             "d": 7.0,
-            "h": 30
+            "h": 30.0
         }
     },
     {
         "nr.": 147,
         "photo": "2535015",
-        "article_code": 2535015,
+        "article_code": "2535015",
         "name": "BOLETI SHOULDER BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4376,15 +4346,15 @@
         "packing_dimension": {
             "w": 48.0,
             "d": 9.0,
-            "h": 36
+            "h": 36.0
         }
     },
     {
         "nr.": 148,
         "photo": "2535021",
-        "article_code": 2535021,
+        "article_code": "2535021",
         "name": "RYU WALL DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4401,20 +4371,20 @@
         "item_dimension": {
             "w": 120.0,
             "d": 123.0,
-            "h": 3
+            "h": 3.0
         },
         "packing_dimension": {
             "w": 123.0,
             "d": 126.0,
-            "h": 6
+            "h": 6.0
         }
     },
     {
         "nr.": 149,
         "photo": "2535022",
-        "article_code": 2535022,
+        "article_code": "2535022",
         "name": "OME WALL DECO-B",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4431,20 +4401,20 @@
         "item_dimension": {
             "w": 121.0,
             "d": 122.0,
-            "h": 3
+            "h": 3.0
         },
         "packing_dimension": {
             "w": 124.0,
             "d": 125.0,
-            "h": 6
+            "h": 6.0
         }
     },
     {
         "nr.": 150,
         "photo": "2535023",
-        "article_code": 2535023,
+        "article_code": "2535023",
         "name": "MIMO WALL DECO-A",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4461,20 +4431,20 @@
         "item_dimension": {
             "w": 100.0,
             "d": 57.0,
-            "h": 3
+            "h": 3.0
         },
         "packing_dimension": {
             "w": 103.0,
             "d": 60.0,
-            "h": 6
+            "h": 6.0
         }
     },
     {
         "nr.": 151,
         "photo": "2535024",
-        "article_code": 2535024,
+        "article_code": "2535024",
         "name": "MIMO WALL DECO-B",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4491,20 +4461,20 @@
         "item_dimension": {
             "w": 120.0,
             "d": 60.0,
-            "h": 3
+            "h": 3.0
         },
         "packing_dimension": {
             "w": 123.0,
             "d": 63.0,
-            "h": 6
+            "h": 6.0
         }
     },
     {
         "nr.": 152,
         "photo": "2535030",
-        "article_code": 2535030,
+        "article_code": "2535030",
         "name": "BERINGIN WALL DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-WD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4521,20 +4491,20 @@
         "item_dimension": {
             "w": 75.5,
             "d": 8.0,
-            "h": 75
+            "h": 75.0
         },
         "packing_dimension": {
             "w": 78.5,
             "d": 11.0,
-            "h": 78
+            "h": 78.0
         }
     },
     {
         "nr.": 153,
         "photo": "2535031",
-        "article_code": 2535031,
+        "article_code": "2535031",
         "name": "OCTO MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4551,20 +4521,20 @@
         "item_dimension": {
             "w": 110.0,
             "d": 8.0,
-            "h": 110
+            "h": 110.0
         },
         "packing_dimension": {
             "w": 113.0,
             "d": 11.0,
-            "h": 113
+            "h": 113.0
         }
     },
     {
         "nr.": 154,
         "photo": "2535032",
-        "article_code": 2535032,
+        "article_code": "2535032",
         "name": "NOVA MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4581,20 +4551,20 @@
         "item_dimension": {
             "w": 66.0,
             "d": 15.0,
-            "h": 98
+            "h": 98.0
         },
         "packing_dimension": {
             "w": 69.0,
             "d": 18.0,
-            "h": 101
+            "h": 101.0
         }
     },
     {
         "nr.": 155,
         "photo": "2535033",
-        "article_code": 2535033,
+        "article_code": "2535033",
         "name": "ZICO MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4611,20 +4581,20 @@
         "item_dimension": {
             "w": 64.0,
             "d": 11.0,
-            "h": 122
+            "h": 122.0
         },
         "packing_dimension": {
             "w": 67.0,
             "d": 14.0,
-            "h": 125
+            "h": 125.0
         }
     },
     {
         "nr.": 156,
         "photo": "2535035",
-        "article_code": 2535035,
+        "article_code": "2535035",
         "name": "MELODY BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4646,15 +4616,15 @@
         "packing_dimension": {
             "w": 47.0,
             "d": 19.5,
-            "h": 27
+            "h": 27.0
         }
     },
     {
         "nr.": 157,
         "photo": "2535043",
-        "article_code": 2535043,
+        "article_code": "2535043",
         "name": "CHRISTMAST TREE",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4671,50 +4641,50 @@
         "item_dimension": {
             "w": 36.5,
             "d": 31.0,
-            "h": 67
+            "h": 67.0
         },
         "packing_dimension": {
             "w": 39.5,
             "d": 34.0,
-            "h": 70
+            "h": 70.0
         }
     },
     {
         "nr.": 158,
         "photo": "2495045",
-        "article_code": "2495045\t",
+        "article_code": "2495045",
         "name": "SABINA MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Iron Frame-Fitrit-Plywood",
+        "finishing": "Matural",
         "qty": 1.0,
         "cbm": 0.17664,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.17664,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 135.0,
             "d": 13.0,
-            "h": 77
+            "h": 77.0
         },
         "packing_dimension": {
             "w": 138.0,
             "d": 16.0,
-            "h": 80
+            "h": 80.0
         }
     },
     {
         "nr.": 159,
         "photo": "2535047",
-        "article_code": 2535047,
+        "article_code": "2535047",
         "name": "RYOTA ROOM DIVIDER",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-RD",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4723,118 +4693,118 @@
         "size_of_set_set_5": "",
         "composition": "Rattan 3/4 Polish-Rattan fitrit-Rattan Core",
         "finishing": "Natural",
-        "qty": 1.0,
+        "qty": 2.0,
         "cbm": 0.149877,
         "fob_jakarta_in_usd": 104.0,
-        "total_cbm": 0.149877,
-        "value_in_usd": 104.0,
+        "total_cbm": 0.299754,
+        "value_in_usd": 208.0,
         "item_dimension": {
             "w": 60.0,
             "d": 10.0,
-            "h": 180
+            "h": 180.0
         },
         "packing_dimension": {
             "w": 63.0,
             "d": 13.0,
-            "h": 183
+            "h": 183.0
         }
     },
     {
         "nr.": 160,
         "photo": "2595001",
-        "article_code": 2595001,
+        "article_code": "2595001",
         "name": "BELGIN MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Rattan 1/2 polish-Core",
+        "finishing": "Classic Brown",
         "qty": 1.0,
         "cbm": 0.273402,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.273402,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 80.0,
             "d": 15.0,
-            "h": 180
+            "h": 180.0
         },
         "packing_dimension": {
             "w": 83.0,
             "d": 18.0,
-            "h": 183
+            "h": 183.0
         }
     },
     {
         "nr.": 161,
         "photo": "2595002",
-        "article_code": 2595002,
+        "article_code": "2595002",
         "name": "CANSU MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Banana",
+        "finishing": "Natural-Brown",
         "qty": 1.0,
         "cbm": 0.137917,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.137917,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 100.0,
             "d": 10.0,
-            "h": 100
+            "h": 100.0
         },
         "packing_dimension": {
             "w": 103.0,
             "d": 13.0,
-            "h": 103
+            "h": 103.0
         }
     },
     {
         "nr.": 162,
         "photo": "2595003",
-        "article_code": 2595003,
+        "article_code": "2595003",
         "name": "BITNA MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Rattan 1/2 polish-Core",
+        "finishing": "Classic Brown",
         "qty": 1.0,
         "cbm": 0.132717,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.132717,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 80.0,
             "d": 10.0,
-            "h": 120
+            "h": 120.0
         },
         "packing_dimension": {
             "w": 83.0,
             "d": 13.0,
-            "h": 123
+            "h": 123.0
         }
     },
     {
         "nr.": 163,
         "photo": "2595004",
-        "article_code": 2595004,
+        "article_code": "2595004",
         "name": "CHRISTMAST TREE -AGEL",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
@@ -4845,37 +4815,37 @@
         "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.019584,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.019584,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 21.0,
             "d": 21.0,
-            "h": 31
+            "h": 31.0
         },
         "packing_dimension": {
             "w": 24.0,
             "d": 24.0,
-            "h": 34
+            "h": 34.0
         }
     },
     {
         "nr.": 164,
         "photo": "2595005",
-        "article_code": 2595005,
+        "article_code": "2595005",
         "name": "STANDING HP - A",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "iron Frame-Slimit",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.005291,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.005291,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -4892,50 +4862,50 @@
     {
         "nr.": 165,
         "photo": "2595006",
-        "article_code": 2595006,
+        "article_code": "2595006",
         "name": "STANDING HP - B",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "iron Frame-Slimit",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.00571725,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.00571725,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 13.5,
             "d": 13.5,
-            "h": 18
+            "h": 18.0
         },
         "packing_dimension": {
             "w": 16.5,
             "d": 16.5,
-            "h": 21
+            "h": 21.0
         }
     },
     {
         "nr.": 166,
         "photo": "2595007",
-        "article_code": 2595007,
+        "article_code": "2595007",
         "name": "STANDING HP - C",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "iron Frame-Slimit",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.00329875,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.00329875,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -4952,21 +4922,21 @@
     {
         "nr.": 167,
         "photo": "2595008",
-        "article_code": 2595008,
+        "article_code": "2595008",
         "name": "BINNA ROOM DIVIDER",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-RD",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
-        "qty": 1.0,
+        "composition": "Rattan 3/4 Polish-Fitrit-Rattan Core",
+        "finishing": "Natural",
+        "qty": 2.0,
         "cbm": 0.2742084328291085,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0.2742084328291085,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.548416865658217,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 200.3298,
@@ -4982,80 +4952,80 @@
     {
         "nr.": 168,
         "photo": "2595010",
-        "article_code": 2595010,
+        "article_code": "2595010",
         "name": "MINI BEAR MIRROR",
-        "categories": "accessories",
-        "sub_categories": "AC-MR",
-        "remark": "KIDS",
-        "size_of_set_set_2": "",
-        "size_of_set_set_3": "",
-        "size_of_set_set_4": "",
-        "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
-        "qty": 1.0,
-        "cbm": 0.061472,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0.061472,
-        "value_in_usd": 0.0,
-        "item_dimension": {
-            "w": 65.0,
-            "d": 5.0,
-            "h": 110
-        },
-        "packing_dimension": {
-            "w": 68.0,
-            "d": 8.0,
-            "h": 113
-        }
-    },
-    {
-        "nr.": 169,
-        "photo": "2595011",
-        "article_code": 2595011,
-        "name": "BUNNY MIRROR",
-        "categories": "accessories",
-        "sub_categories": "AC-MR",
-        "remark": "KIDS",
-        "size_of_set_set_2": "",
-        "size_of_set_set_3": "",
-        "size_of_set_set_4": "",
-        "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
-        "qty": 1.0,
-        "cbm": 0.081928,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0.081928,
-        "value_in_usd": 0.0,
-        "item_dimension": {
-            "w": 74.0,
-            "d": 5.0,
-            "h": 130
-        },
-        "packing_dimension": {
-            "w": 77.0,
-            "d": 8.0,
-            "h": 133
-        }
-    },
-    {
-        "nr.": 170,
-        "photo": "2595012",
-        "article_code": 2595012,
-        "name": "CHIARO MIRROR",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-MR",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Plywood-Fitirit",
+        "finishing": "Natural-Brown Ginger",
+        "qty": 1.0,
+        "cbm": 0.061472,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.061472,
+        "value_in_usd": 0.0,
+        "item_dimension": {
+            "w": 65.0,
+            "d": 5.0,
+            "h": 110.0
+        },
+        "packing_dimension": {
+            "w": 68.0,
+            "d": 8.0,
+            "h": 113.0
+        }
+    },
+    {
+        "nr.": 169,
+        "photo": "2595011",
+        "article_code": "2595011",
+        "name": "BUNNY MIRROR",
+        "categories": "Accessories",
+        "sub_categories": "AC-MR",
+        "remark": "",
+        "size_of_set_set_2": "",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "",
+        "size_of_set_set_5": "",
+        "composition": "Plywood-Fitirit",
+        "finishing": "Natural-Soft Pink",
+        "qty": 1.0,
+        "cbm": 0.081928,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.081928,
+        "value_in_usd": 0.0,
+        "item_dimension": {
+            "w": 74.0,
+            "d": 5.0,
+            "h": 130.0
+        },
+        "packing_dimension": {
+            "w": 77.0,
+            "d": 8.0,
+            "h": 133.0
+        }
+    },
+    {
+        "nr.": 170,
+        "photo": "2595012",
+        "article_code": "2595012",
+        "name": "CHIARO MIRROR",
+        "categories": "Accessories",
+        "sub_categories": "AC-MR",
+        "remark": "",
+        "size_of_set_set_2": "",
+        "size_of_set_set_3": "",
+        "size_of_set_set_4": "",
+        "size_of_set_set_5": "",
+        "composition": "Iron Frame-Banan",
+        "finishing": "Natural",
         "qty": 1.0,
         "cbm": 0.109368,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.109368,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -5072,50 +5042,50 @@
     {
         "nr.": 171,
         "photo": "2595013",
-        "article_code": 2595013,
+        "article_code": "2595013",
         "name": "MINI YELLOW DUCK DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Suar Wood",
+        "finishing": "Natural-White-Yellow",
         "qty": 1.0,
         "cbm": 0.00645975,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.00645975,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 10.5,
             "d": 13.5,
-            "h": 26
+            "h": 26.0
         },
         "packing_dimension": {
             "w": 13.5,
             "d": 16.5,
-            "h": 29
+            "h": 29.0
         }
     },
     {
         "nr.": 172,
         "photo": "2595014",
-        "article_code": 2595014,
+        "article_code": "2595014",
         "name": "BIKINI DUCK DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Suar Wood",
+        "finishing": "Natural-White-Soft Orange",
         "qty": 1.0,
         "cbm": 0.017226,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.017226,
         "value_in_usd": 0.0,
         "item_dimension": {
@@ -5132,112 +5102,112 @@
     {
         "nr.": 173,
         "photo": "2595015",
-        "article_code": 2595015,
+        "article_code": "2595015",
         "name": "BOOTS DUCK DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Suar Wood",
+        "finishing": "Natural-Blue",
         "qty": 1.0,
-        "cbm": 0.008619,
-        "fob_jakarta_in_usd": "",
-        "total_cbm": 0.008619,
+        "cbm": 0.041013,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.041013,
         "value_in_usd": 0.0,
         "item_dimension": {
-            "w": 10.0,
-            "d": 14.0,
-            "h": 36
+            "w": 28.0,
+            "d": 18.0,
+            "h": 60.0
         },
         "packing_dimension": {
-            "w": 13.0,
-            "d": 17.0,
-            "h": 39
+            "w": 31.0,
+            "d": 21.0,
+            "h": 63.0
         }
     },
     {
         "nr.": 174,
         "photo": "2595016",
-        "article_code": 2595016,
+        "article_code": "2595016",
         "name": "SURFING DUCK DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Suar Wood",
+        "finishing": "Natural-Blue",
         "qty": 1.0,
         "cbm": 0.02145,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.02145,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 16.5,
             "d": 22.0,
-            "h": 41
+            "h": 41.0
         },
         "packing_dimension": {
             "w": 19.5,
             "d": 25.0,
-            "h": 44
+            "h": 44.0
         }
     },
     {
         "nr.": 175,
         "photo": "2595017",
-        "article_code": 2595017,
+        "article_code": "2595017",
         "name": "RED BOOTS DUCK DECO",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-DC",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Suar Wood",
+        "finishing": "Natural-Red-Green",
         "qty": 1.0,
         "cbm": 0.00639375,
-        "fob_jakarta_in_usd": "",
+        "fob_jakarta_in_usd": 0.0,
         "total_cbm": 0.00639375,
         "value_in_usd": 0.0,
         "item_dimension": {
             "w": 9.5,
             "d": 13.5,
-            "h": 28
+            "h": 28.0
         },
         "packing_dimension": {
             "w": 12.5,
             "d": 16.5,
-            "h": 31
+            "h": 31.0
         }
     },
     {
         "nr.": 176,
         "photo": "2595019",
-        "article_code": 2595019,
+        "article_code": "2595019",
         "name": "CHERRY BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong-Cotton Rope-Liner Fabric-Leather",
+        "finishing": "Natural-Red-Green-Tan",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 30.0,
             "d": 4.0,
@@ -5252,61 +5222,31 @@
     {
         "nr.": 177,
         "photo": "2595020",
-        "article_code": 2595020,
+        "article_code": "2595020",
         "name": "CHEREENA BAG",
-        "categories": "accessories",
+        "categories": "Accessories",
         "sub_categories": "AC-BG",
         "remark": "",
         "size_of_set_set_2": "",
         "size_of_set_set_3": "",
         "size_of_set_set_4": "",
         "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
+        "composition": "Mendong-Fabric",
+        "finishing": "Natural",
         "qty": 1.0,
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": "",
+        "cbm": 0.0,
+        "fob_jakarta_in_usd": 0.0,
+        "total_cbm": 0.0,
+        "value_in_usd": 0.0,
         "item_dimension": {
             "w": 36.0,
             "d": 8.0,
-            "h": 47
+            "h": 47.0
         },
         "packing_dimension": {
             "w": 39.0,
             "d": 11.0,
-            "h": 50
-        }
-    },
-    {
-        "nr.": "CBM",
-        "photo": "",
-        "article_code": "",
-        "name": "nan",
-        "categories": "nan",
-        "sub_categories": "",
-        "remark": "",
-        "size_of_set_set_2": "",
-        "size_of_set_set_3": "",
-        "size_of_set_set_4": "",
-        "size_of_set_set_5": "",
-        "composition": "",
-        "finishing": "",
-        "qty": "",
-        "cbm": "",
-        "fob_jakarta_in_usd": "",
-        "total_cbm": "",
-        "value_in_usd": 9732.0,
-        "item_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
-        },
-        "packing_dimension": {
-            "w": "",
-            "d": "",
-            "h": ""
+            "h": 50.0
         }
     }
 ]

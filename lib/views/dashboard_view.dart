@@ -21,6 +21,8 @@ class DashboardView extends StatefulWidget {
 
 class _DashboardViewState extends State<DashboardView> {
   int _selectedIndex = 0;
+  bool _isLoading = true; // state untuk loading
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   void _onTabSelected(int index) {
     setState(() {
@@ -52,7 +54,39 @@ class _DashboardViewState extends State<DashboardView> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    requestStoragePermission();
+    // requestStoragePermission();
+    _initAsync();
+  }
+
+  void _initAsync() async {
+    await requestStoragePermission();
+
+    final productProvider = context.read<ProductProvider>();
+
+    // Load semua produk dari JSON
+    if (productProvider.allProducts.isEmpty) {
+      await productProvider.loadProducts();
+    }
+
+    final carts =
+        productProvider.allProducts
+            .map((p) => {'article_code': p.articleCode, 'photo': p.photo})
+            .toList();
+
+    // Preload gambar di background
+    ImageHelper.preloadImages(carts).then((_) {
+      if (mounted) {
+        setState(() {
+          _isLoading = false; // semua gambar sudah di-cache
+        });
+      }
+    });
+
+    if (mounted) {
+      setState(() {
+        _isLoading = true; // sementara preload berjalan
+      });
+    }
   }
 
   @override
@@ -126,63 +160,64 @@ class _DashboardViewState extends State<DashboardView> {
         ),
       ),
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // HEADER
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  InkWell(
-                    onTap: () {
-                      _scaffoldKey.currentState?.openDrawer();
-                    },
-                    child: const Icon(Icons.menu),
-                  ),
-                  Row(
-                    children: [
-                      // Icon(Icons.search),
-                      const SizedBox(width: 12),
-                      InkWell(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => CartView()),
-                          );
-                        },
-                        child: const Icon(Icons.shopping_cart_outlined),
-                      ),
-                    ],
-                  ),
-                ],
+        child: CustomScrollView(
+          slivers: [
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 16,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    IconButton(onPressed: (){
+                       _scaffoldKey.currentState?.openDrawer();
+                    }, icon: Icon(Icons.menu)),
+                    Row(
+                      children: [
+                        const SizedBox(width: 12),
+                       IconButton(onPressed: (){
+                         Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (_) => CartView()),
+                            );
+                       }, icon: Icon(Icons.shopping_bag_outlined))
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
 
             // GREETING
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  Text('NewWicker ,', style: TextStyle(fontSize: 20)),
-                  Text(
-                    'Welcome to Catalogue',
-                    style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(height: 24),
-                ],
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: const [
+                    Text('NewWicker ,', style: TextStyle(fontSize: 20)),
+                    Text(
+                      'Welcome to Catalogue',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 16),
+                  ],
+                ),
               ),
             ),
 
-            // CATEGORY ICONS (lazy horizontal)
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
+            // CATEGORY ICONS
+            SliverToBoxAdapter(
               child: SizedBox(
                 height: 60,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   itemCount: 4,
                   itemBuilder: (context, index) {
                     final icons = [
@@ -197,43 +232,39 @@ class _DashboardViewState extends State<DashboardView> {
               ),
             ),
 
-            const SizedBox(height: 24),
+            const SliverToBoxAdapter(child: SizedBox(height: 24)),
 
             // POPULAR TEXT
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                children: const [
-                  Text(
-                    'Popular',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
-                ],
-              ),
-            ),
-
-            const SizedBox(height: 12),
-
-            // PRODUCT GRID - wrapped with Expanded (scrollable lazy!)
-            Expanded(
+            SliverToBoxAdapter(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: GridView.builder(
-                  padding: const EdgeInsets.all(12),
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 12,
-                    crossAxisSpacing: 12,
-                    childAspectRatio: 0.8,
-                  ),
-                  itemCount: products.length,
-                  itemBuilder: (context, index) {
-                    final product = products[index];
-                    return _buildProductCard(product, context);
-                  },
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: const Text(
+                  'Popular',
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
             ),
+
+            const SliverToBoxAdapter(child: SizedBox(height: 12)),
+
+            // PRODUCT GRID (SliverGrid)
+            SliverPadding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              sliver: SliverGrid(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount:
+                      (MediaQuery.of(context).size.width / 200).floor(),
+                  mainAxisSpacing: 12,
+                  crossAxisSpacing: 12,
+                  childAspectRatio: 0.8,
+                ),
+                delegate: SliverChildBuilderDelegate((context, index) {
+                  final product = products[index];
+                  return _buildProductCard(product, context);
+                }, childCount: products.length),
+              ),
+            ),
+            const SliverToBoxAdapter(child: SizedBox(height: 24)),
           ],
         ),
       ),
@@ -251,7 +282,10 @@ class _DashboardViewState extends State<DashboardView> {
     );
   }
 
-  Widget _buildProductCard(Product product, context) {
+  Widget _buildProductCard(Product product, BuildContext context) {
+    final articleCode = product.articleCode;
+    final cachedImage =
+        ImageHelper.cachedImages[articleCode]; // ambil dari cache
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -266,37 +300,28 @@ class _DashboardViewState extends State<DashboardView> {
           color: Colors.white,
           borderRadius: BorderRadius.circular(16),
         ),
-        padding: const EdgeInsets.all(12),
+        padding: EdgeInsets.all(12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               child:
                   product.photo.isNotEmpty
-                      ? FutureBuilder<Uint8List?>(
-                        future: ImageHelper.loadWithCache(product.articleCode),
-                        builder: (context, snapshot) {
-                          if (snapshot.connectionState ==
-                              ConnectionState.waiting) {
-                            return Container(
-                              color: Colors.grey.shade200,
-                              width: double.infinity,
-                              height: double.infinity,
-                            );
-                          }
-                          if (snapshot.hasData && snapshot.data != null) {
-                            return Image.memory(
-                              snapshot.data!,
-                              fit: BoxFit.cover,
-                              width: double.infinity,
-                              height: double.infinity,
-                              gaplessPlayback: true, // biar gak flicker
-                            );
-                          } else {
-                            return const Icon(Icons.broken_image, size: 50);
-                          }
-                        },
-                      )
+                      ? (ImageHelper.cachedImages.containsKey(
+                            product.articleCode,
+                          )
+                          ? Image.memory(
+                            ImageHelper.cachedImages[product.articleCode]!,
+                            fit: BoxFit.cover,
+                            cacheWidth: 200,
+                            cacheHeight: 200,
+                          )
+                          : Container(
+                            color: Colors.grey.shade200,
+                            child: const Center(
+                              child: Text("Sedang membuat cache..."),
+                            ),
+                          ))
                       : const FlutterLogo(),
             ),
             const SizedBox(height: 8),
@@ -304,20 +329,19 @@ class _DashboardViewState extends State<DashboardView> {
               product.name,
               style: const TextStyle(fontWeight: FontWeight.bold),
             ),
-            Text('\$${product.cbm.toStringAsFixed(2)}'),
+            Text('\$${product.valueInUsd.toStringAsFixed(2)}'),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Row(
                   children: [
-                    Icon(Icons.star, size: 14, color: Colors.amber),
-                    SizedBox(width: 4),
-                    Text('4.5'),
+                    const Icon(Icons.star, size: 14, color: Colors.amber),
+                    const SizedBox(width: 4),
+                     Text('${product.articleCode}'),
                   ],
                 ),
-                InkWell(
-                  onTap: () async {
-                    final db = await DBHelper.instance.database;
+               IconButton(onPressed: ()async{
+                 final db = await DBHelper.instance.database;
 
                     await db.insert('cart', {
                       'article_code': product.articleCode,
@@ -331,9 +355,7 @@ class _DashboardViewState extends State<DashboardView> {
                         duration: Duration(seconds: 2),
                       ),
                     );
-                  },
-                  child: Icon(Icons.shopping_cart_outlined),
-                ),
+               }, icon: Icon(Icons.add_shopping_cart_rounded))
               ],
             ),
           ],

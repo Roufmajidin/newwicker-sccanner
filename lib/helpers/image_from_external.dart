@@ -6,6 +6,22 @@ import 'package:path_provider/path_provider.dart';
 class ImageHelper {
   static const _internalFolder = 'NewwickerImages';
   static const _publicFolder = '/storage/emulated/0/DCIM/Pictures/Newwicker';
+  static final Map<String, Uint8List> cachedImages = {};
+
+  static Future<void> preloadImages(List<Map<String, dynamic>> carts) async {
+    for (var cart in carts) {
+      final code = cart['article_code']?.toString() ?? '';
+      if (code.isNotEmpty && !cachedImages.containsKey(code)) {
+        final bytes = await loadWithCache(code); // loadWithCache tetap async
+        if (bytes != null) {
+          cachedImages[code] = bytes;
+          print('✅ Image preloaded: $code'); 
+        } else {
+          print('⚠️ Image not found: $code');
+        }
+      }
+    }
+  }
 
   /// Load gambar dengan caching
   static Future<Uint8List?> loadWithCache(String articleCode) async {

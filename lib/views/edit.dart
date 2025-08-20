@@ -312,6 +312,9 @@ class _EditCartState extends State<EditCart> {
                                               width: 40,
                                               height: 40,
                                               fit: BoxFit.cover,
+                                              cacheWidth:
+                                                  120, // ini akan decode image ke ukuran kecil
+                                              cacheHeight: 120,
                                             );
                                           } else {
                                             return const Icon(

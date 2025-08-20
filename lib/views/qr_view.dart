@@ -234,10 +234,7 @@ class _QRViewExampleState extends State<QRViewExample> {
       // print('halow : ${product.name}');
       if (!mounted) return;
 
-      if (product != null ||
-          widget.cartId != null ||
-          widget.buyerId != null ||
-          widget.status != '') {
+      if (product != null ) {
         Navigator.push(
           context,
           MaterialPageRoute(

@@ -5,6 +5,7 @@ import 'package:newwicker/helpers/image_from_external.dart';
 import 'package:newwicker/models/products.dart';
 import 'package:newwicker/provider/cart_provider.dart';
 import 'package:newwicker/provider/product_provider.dart';
+import 'package:newwicker/views/sales_view.dart';
 import 'package:provider/provider.dart';
 import 'dart:math';
 
@@ -168,7 +169,7 @@ class _CartViewState extends State<CartView> {
                                           ),
                                           child: FutureBuilder<Uint8List?>(
                                             future: ImageHelper.loadWithCache(
-                                               cart['article_code'],
+                                              cart['article_code'],
                                             ),
                                             builder: (context, snapshot) {
                                               if (snapshot.connectionState ==
@@ -417,8 +418,12 @@ class _CartViewState extends State<CartView> {
                                     print(
                                       "✅ Data berhasil disimpan ke DB lokal",
                                     );
-                                    print("Order No: $orderNo");
-                                    print("Buyer ID: $buyerId");
+                                    FocusScope.of(context).unfocus();
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (_) => SalesView(),
+                                      ),
+                                    );
                                   }
                                   : null, // disabled kalau validasi false,
 
@@ -429,7 +434,9 @@ class _CartViewState extends State<CartView> {
                               color:
                                   isSaveEnabled ? Colors.amber : Colors.white,
                             ),
-                            child: const Center(child: Text("Simpan")),
+                            child: const Center(
+                              child: Text("Simpan draft buyer"),
+                            ),
                           ),
                         ),
                       ],

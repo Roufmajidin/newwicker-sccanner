@@ -38,6 +38,27 @@ class Product {
     required this.fobJakartaInUsd,
     required this.valueInUsd,
   });
+  factory Product.empty() {
+    return Product(
+      nr: '',
+      photo: '',
+      articleCode: '',
+      name: '',
+      categories: '',
+      subCategories: '',
+      itemDimension: Dimension(w: 0, d: 0, h: 0),
+      packingDimension: Dimension(w: 0, d: 0, h: 0),
+      sizeOfSet: SizeOfSet(set2: '', set3: '', set4: '', set5: ''),
+      composition: '',
+      finishing: '',
+      qty: 0,
+      cbm: 0,
+      totalCbm: 0,
+      remarks: Remarks.empty(),
+      fobJakartaInUsd: 0,
+      valueInUsd: 0,
+    );
+  }
 
   /// Format angka desimal dengan 2 angka di belakang koma
   String get cbmFormatted => cbm.toStringAsFixed(2);
@@ -60,8 +81,7 @@ class Product {
   String get fobJakartaInIdrFormatted =>
       _formatCurrency(fobJakartaInUsd * 16000, 'IDR');
 
-  String get valueInIdrFormatted =>
-      _formatCurrency(valueInUsd * 16000, 'IDR');
+  String get valueInIdrFormatted => _formatCurrency(valueInUsd * 16000, 'IDR');
 
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
@@ -84,36 +104,58 @@ class Product {
       qty: _parseNum(json['qty']).toDouble(),
       cbm: _parseNum(json['cbm']).toDouble(),
       totalCbm: _parseNum(json['total_cbm']).toDouble(),
-      remarks: json['remarks'] is Map<String, dynamic>
-          ? Remarks.fromJson(json['remarks'])
-          : Remarks.empty(),
+      remarks:
+          json['remarks'] is Map<String, dynamic>
+              ? Remarks.fromJson(json['remarks'])
+              : Remarks.empty(),
       fobJakartaInUsd: _parseNum(json['fob_jakarta_in_usd']).toDouble(),
       valueInUsd: _parseNum(json['value_in_usd']).toDouble(),
     );
   }
+  Map<String, dynamic> toMap() {
+    return {
+      'nr': nr,
+      'photo': photo,
+      'article_code': articleCode,
+      'name': name,
+      'categories': categories,
+      'sub_categories': subCategories,
+      'item_dimension': itemDimension,
+      'packing_dimension': packingDimension,
+      'size_of_set': sizeOfSet,
+      'composition': composition,
+      'finishing': finishing,
+      'qty': qty,
+      'cbm': cbm,
+      'total_cbm': totalCbm,
+      'remarks': remarks,
+      'fob_jakarta_in_usd': fobJakartaInUsd,
+      'value_in_usd': valueInUsd,
+    };
+  }
 
   Map<String, dynamic> toJson() => {
-        'nr': nr,
-        'photo': photo,
-        'article_code': articleCode,
-        'name': name,
-        'categories': categories,
-        'sub_categories': subCategories,
-        'item_dimension': itemDimension.toJson(),
-        'packing_dimension': packingDimension.toJson(),
-        'size_of_set_set_2': sizeOfSet.set2,
-        'size_of_set_set_3': sizeOfSet.set3,
-        'size_of_set_set_4': sizeOfSet.set4,
-        'size_of_set_set_5': sizeOfSet.set5,
-        'composition': composition,
-        'finishing': finishing,
-        'qty': qty,
-        'cbm': cbm,
-        'total_cbm': totalCbm,
-        'remarks': remarks.toJson(),
-        'fob_jakarta_in_usd': fobJakartaInUsd,
-        'value_in_usd': valueInUsd,
-      };
+    'nr': nr,
+    'photo': photo,
+    'article_code': articleCode,
+    'name': name,
+    'categories': categories,
+    'sub_categories': subCategories,
+    'item_dimension': itemDimension.toJson(),
+    'packing_dimension': packingDimension.toJson(),
+    'size_of_set_set_2': sizeOfSet.set2,
+    'size_of_set_set_3': sizeOfSet.set3,
+    'size_of_set_set_4': sizeOfSet.set4,
+    'size_of_set_set_5': sizeOfSet.set5,
+    'composition': composition,
+    'finishing': finishing,
+    'qty': qty,
+    'cbm': cbm,
+    'total_cbm': totalCbm,
+    'remarks': remarks.toJson(),
+    'fob_jakarta_in_usd': fobJakartaInUsd,
+    'value_in_usd': valueInUsd,
+  };
 }
 
 class Dimension {
@@ -121,11 +163,7 @@ class Dimension {
   final double d;
   final double h;
 
-  Dimension({
-    required this.w,
-    required this.d,
-    required this.h,
-  });
+  Dimension({required this.w, required this.d, required this.h});
 
   factory Dimension.fromJson(Map<String, dynamic> json) {
     return Dimension(
@@ -135,12 +173,12 @@ class Dimension {
     );
   }
 
-  Map<String, dynamic> toJson() => {
-        'w': w,
-        'd': d,
-        'h': h,
-      };
+  Map<String, dynamic> toJson() => {'w': w, 'd': d, 'h': h};
+  String formatted({String unit = "cm"}) {
+    return "${w.toStringAsFixed(0)} x ${d.toStringAsFixed(0)} x ${h.toStringAsFixed(0)} $unit";
+  }
 }
+
 
 class SizeOfSet {
   final String set2;
@@ -156,21 +194,18 @@ class SizeOfSet {
   });
 
   Map<String, dynamic> toJson() => {
-        'set2': set2,
-        'set3': set3,
-        'set4': set4,
-        'set5': set5,
-      };
+    'set2': set2,
+    'set3': set3,
+    'set4': set4,
+    'set5': set5,
+  };
 }
 
 class Remarks {
   final RemarkDetail rangka;
   final RemarkDetail anyam;
 
-  Remarks({
-    required this.rangka,
-    required this.anyam,
-  });
+  Remarks({required this.rangka, required this.anyam});
 
   factory Remarks.fromJson(Map<String, dynamic> json) {
     return Remarks(
@@ -187,19 +222,16 @@ class Remarks {
   }
 
   Map<String, dynamic> toJson() => {
-        'rangka': rangka.toJson(),
-        'anyam': anyam.toJson(),
-      };
+    'rangka': rangka.toJson(),
+    'anyam': anyam.toJson(),
+  };
 }
 
 class RemarkDetail {
   final double harga;
   final String sub;
 
-  RemarkDetail({
-    required this.harga,
-    required this.sub,
-  });
+  RemarkDetail({required this.harga, required this.sub});
 
   factory RemarkDetail.fromJson(Map<String, dynamic> json) {
     return RemarkDetail(
@@ -208,10 +240,7 @@ class RemarkDetail {
     );
   }
 
-  Map<String, dynamic> toJson() => {
-        'harga': harga,
-        'sub': sub,
-      };
+  Map<String, dynamic> toJson() => {'harga': harga, 'sub': sub};
 }
 
 /// Helper parsing angka, string angka, atau pecahan
@@ -242,9 +271,7 @@ num _parseNum(dynamic value) {
 
 /// Helper format angka
 String _formatNumber(double value) {
-  return value % 1 == 0
-      ? value.toStringAsFixed(0)
-      : value.toStringAsFixed(2);
+  return value % 1 == 0 ? value.toStringAsFixed(0) : value.toStringAsFixed(2);
 }
 
 /// Helper format currency

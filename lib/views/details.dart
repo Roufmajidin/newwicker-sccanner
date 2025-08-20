@@ -2,6 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
+import 'package:intl/intl.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:newwicker/helpers/image_from_external.dart';
 import 'package:newwicker/provider/cart_provider.dart';
@@ -349,17 +350,24 @@ class _ProductDetailViewState extends State<ProductDetailView>
                         fontWeight: FontWeight.bold,
                       ),
                     ),
+                    Text(
+                      product.articleCode,
+                      style: const TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                     const SizedBox(height: 4),
                     Text(
                       product.categories,
                       style: const TextStyle(color: Colors.orangeAccent),
                     ),
                     Text(
-                      'Rp ${product.fobJakartaInUsd}',
-                      style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      NumberFormat.currency(
+                        locale: 'en_US',
+                        symbol: '\$',
+                      ).format(product.fobJakartaInUsd ?? 0),
+                      style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 16),
                     const Text(
@@ -373,7 +381,7 @@ class _ProductDetailViewState extends State<ProductDetailView>
                     _buildDetailRow('Finishing', product.finishing),
                     _buildDetailRow(
                       'CBM',
-                      (product.cbm < 0.44 ? 0.44 : product.cbm).toStringAsFixed(
+                      (product.cbm).toStringAsFixed(
                         2,
                       ),
                     ),
@@ -486,6 +494,8 @@ class _ProductDetailViewState extends State<ProductDetailView>
                                   (_) => EditCart(
                                     buyerId: widget.buyerId!.toInt(),
                                   ),
+                              //  (_) => SalesView(
+                              // ),
                             ),
                           );
                         }

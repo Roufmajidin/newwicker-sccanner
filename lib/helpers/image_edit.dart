@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 class ImageHelper {
-  static Future<Uint8List?> loadWithCache(String articleCode) async {
+  static Future<Uint8List?> loadWithCache(String articleCode, {required int maxWidth}) async {
     // simulasi load gambar (misalnya dari asset / db / file system)
     await Future.delayed(const Duration(milliseconds: 200));
     // return null kalau gak ada gambar
@@ -17,7 +17,7 @@ class ImageCacheManager {
     if (_cache.containsKey(articleCode)) {
       return _cache[articleCode]!;
     } else {
-      final future = ImageHelper.loadWithCache(articleCode);
+      final future = ImageHelper.loadWithCache(articleCode, maxWidth: 300);
       _cache[articleCode] = future;
       return future;
     }
